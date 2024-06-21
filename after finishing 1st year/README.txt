@@ -1,3 +1,5 @@
+Contributor: Edward Eo
+
 My first side project is a 'menu picker'.
 
 Have you ever had an experience where you can't decide what you want to eat and want somebody else to pick for you? In that case, my menu picker is the right choice!
@@ -22,3 +24,5 @@ How to use it?
 5. After you hit enter, put -> java MenuPicker
 
 Then, you should be in the main class. Then follow the instruction in the terminal to use it.
+
+Here is the screenshot of terminal to use the Menu picker: https://drive.google.com/file/d/1gPbfEe3luV-gq3eYmyxjKLHEK4KBPLeu/view?usp=sharing
