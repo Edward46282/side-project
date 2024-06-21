@@ -1,0 +1,971 @@
+/Dessert/
+Apple Pie: Apples, cinnamon, sugar
+Chocolate Cake: Chocolate, flour, sugar
+Strawberry Shortcake: Strawberries, cake, whipped cream
+Banana Pudding: Bananas, vanilla wafers, pudding
+Blueberry Cobbler: Blueberries, butter, sugar
+Peach Crisp: Peaches, oats, brown sugar
+Lemon Bars: Lemon, flour, sugar
+Key Lime Pie: Key lime, condensed milk, graham crackers
+Raspberry Cheesecake: Raspberry, cream cheese, graham crackers
+Pineapple Upside-Down Cake: Pineapple, cherries, cake
+Black Forest Cake: Cherry, chocolate, whipped cream
+Pecan Pie: Pecans, corn syrup, eggs
+Carrot Cake: Carrots, walnuts, cream cheese frosting
+Red Velvet Cake: Cocoa, buttermilk, cream cheese frosting
+Tiramisu: Coffee, ladyfingers, mascarpone
+Chocolate Chip Cookies: Chocolate chips, flour, butter
+Coconut Macaroons: Coconut, egg whites, sugar
+Baklava: Phyllo dough, nuts, honey
+Creme Brulee: Cream, eggs, sugar
+S'mores: Graham crackers, chocolate, marshmallow
+Lava Cake: Chocolate, flour, eggs
+Pavlova: Meringue, whipped cream, fruit
+Eclair: Pastry cream, chocolate, pastry dough
+Molten Chocolate Cake: Chocolate, flour, eggs
+Fruit Tart: Pastry crust, custard, assorted fruits
+Napoleon: Puff pastry, pastry cream, chocolate
+Cherry Pie: Cherries, sugar, pie crust
+Pumpkin Pie: Pumpkin, cinnamon, nutmeg
+Cinnamon Rolls: Cinnamon, dough, icing
+Bread Pudding: Bread, milk, eggs
+Cheesecake: Cream cheese, eggs, sugar
+German Chocolate Cake: Chocolate, coconut, pecans
+Angel Food Cake: Flour, egg whites, sugar
+Ice Cream Sundae: Ice cream, chocolate syrup, whipped cream
+Brownies: Chocolate, flour, eggs
+Lemon Meringue Pie: Lemon, eggs, pie crust
+Caramel Apples: Apples, caramel, nuts
+Chocolate Mousse: Chocolate, cream, eggs
+Rice Pudding: Rice, milk, sugar
+Tapioca Pudding: Tapioca pearls, milk, sugar
+Fried Ice Cream: Ice cream, cornflakes, cinnamon
+Boston Cream Pie: Custard, chocolate, cake
+Tres Leches Cake: Milk, eggs, cake
+Fudge: Chocolate, condensed milk, nuts
+Lemon Pound Cake: Lemon, flour, sugar
+Mango Sorbet: Mango, sugar, water
+Coffee Cake: Coffee, cinnamon, streusel
+Cherry Cheesecake: Cherry, cream cheese, graham crackers
+Peanut Butter Cookies: Peanut butter, flour, sugar
+Shortbread Cookies: Butter, flour, sugar
+Gelato: Milk, sugar, flavorings
+Cannoli: Ricotta, pastry dough, chocolate
+Pumpkin Roll: Pumpkin, cream cheese, cinnamon
+Banana Cream Pie: Bananas, pudding, pie crust
+Coconut Cream Pie: Coconut, cream, pie crust
+Apple Crisp: Apples, oats, brown sugar
+Peach Cobbler: Peaches, butter, sugar
+Chocolate Souffle: Chocolate, eggs, sugar
+Key Lime Bars: Key lime, graham crackers, condensed milk
+Rocky Road Ice Cream: Chocolate, marshmallow, nuts
+Fruit Sorbet: Fruit, sugar, water
+Chocolate Covered Strawberries: Strawberries, chocolate, sprinkles
+Raspberry Sorbet: Raspberry, sugar, water
+Butter Pecan Ice Cream: Pecans, butter, cream
+Neapolitan Ice Cream: Chocolate, vanilla, strawberry
+Biscotti: Almonds, flour, sugar
+Chocolate Truffles: Chocolate, cream, cocoa powder
+Chocolate Eclairs: Chocolate, pastry cream, pastry dough
+Fruit Salad: Assorted fruits, honey, mint
+Peanut Butter Pie: Peanut butter, cream cheese, whipped cream
+Chocolate Peanut Butter Pie: Chocolate, peanut butter, whipped cream
+Chocolate Covered Bananas: Bananas, chocolate, nuts
+Chocolate Fondue: Chocolate, fruit, skewers
+Chocolate Covered Pretzels: Pretzels, chocolate, sprinkles
+Chocolate Covered Raisins: Raisins, chocolate, sugar
+Chocolate Covered Almonds: Almonds, chocolate, sea salt
+Chocolate Covered Cherries: Cherries, chocolate, liqueur
+Chocolate Covered Blueberries: Blueberries, chocolate, powdered sugar
+Chocolate Covered Cranberries: Cranberries, chocolate, orange zest
+Chocolate Covered Dates: Dates, chocolate, nuts
+Chocolate Covered Espresso Beans: Espresso beans, chocolate, cocoa powder
+Chocolate Covered Orange Peel: Orange peel, chocolate, sugar
+Chocolate Covered Pineapple: Pineapple, chocolate, coconut
+Chocolate Covered Raspberry: Raspberry, chocolate, almonds
+Chocolate Covered Strawberries with Champagne: Strawberries, chocolate, champagne
+Chocolate Mousse Cake: Chocolate, cream, eggs
+Chocolate Pudding: Chocolate, milk, sugar
+Chocolate Banana Bread: Chocolate, bananas, flour
+Chocolate Zucchini Bread: Chocolate, zucchini, flour
+Chocolate Bread Pudding: Chocolate, bread, eggs
+Chocolate Cream Pie: Chocolate, cream, pie crust
+Chocolate Strawberry Cake: Chocolate, strawberries, cake
+Chocolate Raspberry Tart: Chocolate, raspberries, pastry crust
+Chocolate Orange Truffles: Chocolate, cream, orange zest
+Chocolate Coconut Cupcakes: Chocolate, coconut, flour
+Chocolate Mint Cookies: Chocolate, mint, flour
+Chocolate Hazelnut Brownies: Chocolate, hazelnut, flour
+Chocolate Cherry Cupcakes: Chocolate, cherry, flour
+Chocolate Almond Cake: Chocolate, almond, flour
+Chocolate Raspberry Brownies: Chocolate, raspberry, flour
+Chocolate Toffee Cookies: Chocolate, toffee, flour
+Chocolate Caramel Cupcakes: Chocolate, caramel, flour
+Chocolate Banana Cupcakes: Chocolate, banana, flour
+Chocolate Peanut Butter Brownies: Chocolate, peanut butter, flour
+Chocolate Mint Cupcakes: Chocolate, mint, flour
+Chocolate Strawberry Cupcakes: Chocolate, strawberry, flour
+Chocolate Coconut Brownies: Chocolate, coconut, flour
+Chocolate Raspberry Cupcakes: Chocolate, raspberry, flour
+Chocolate Orange Cupcakes: Chocolate, orange, flour
+Chocolate Caramel Brownies: Chocolate, caramel, flour
+Chocolate Hazelnut Cupcakes: Chocolate, hazelnut, flour
+Chocolate Toffee Brownies: Chocolate, toffee, flour
+Chocolate Banana Brownies: Chocolate, banana, flour
+Chocolate Peanut Butter Cupcakes: Chocolate, peanut butter, flour
+Chocolate Mint Brownies: Chocolate, mint, flour
+Chocolate Strawberry Brownies: Chocolate, strawberry, flour
+Chocolate Coconut Cupcakes: Chocolate, coconut, flour
+Chocolate Raspberry Brownies: Chocolate, raspberry, flour
+Chocolate Orange Brownies: Chocolate, orange, flour
+Chocolate Caramel Cupcakes: Chocolate, caramel, flour
+Chocolate Hazelnut Brownies: Chocolate, hazelnut, flour
+Chocolate Toffee Cupcakes: Chocolate, toffee, flour
+Chocolate Banana Cupcakes: Chocolate, banana, flour
+Chocolate Peanut Butter Brownies: Chocolate, peanut butter, flour
+Chocolate Mint Cupcakes: Chocolate, mint, flour
+Chocolate Strawberry Cupcakes: Chocolate, strawberry, flour
+Chocolate Coconut Brownies: Chocolate, coconut, flour
+Chocolate Raspberry Cupcakes: Chocolate, raspberry, flour
+Chocolate Orange Cupcakes: Chocolate, orange, flour
+Chocolate Caramel Brownies: Chocolate, caramel, flour
+Chocolate Hazelnut Cupcakes: Chocolate, hazelnut, flour
+Chocolate Toffee Brownies: Chocolate, toffee, flour
+Chocolate Banana Brownies: Chocolate, banana, flour
+Chocolate Peanut Butter Cupcakes: Chocolate, peanut butter, flour
+Chocolate Mint Brownies: Chocolate, mint, flour
+Chocolate Strawberry Brownies: Chocolate, strawberry, flour
+Chocolate Coconut Cupcakes: Chocolate, coconut, flour
+Chocolate Raspberry Brownies: Chocolate, raspberry, flour
+Chocolate Orange Brownies: Chocolate, orange, flour
+Chocolate Caramel Cupcakes: Chocolate, caramel, flour
+Chocolate Hazelnut Brownies: Chocolate, hazelnut, flour
+Chocolate Toffee Cupcakes: Chocolate, toffee, flour
+Chocolate Banana Cupcakes: Chocolate, banana, flour
+Chocolate Peanut Butter Brownies: Chocolate, peanut butter, flour
+Chocolate Mint Cupcakes: Chocolate, mint, flour
+Chocolate Strawberry Cupcakes: Chocolate, strawberry, flour
+Chocolate Coconut Brownies: Chocolate, coconut, flour
+Chocolate Raspberry Cupcakes: Chocolate, raspberry, flour
+Chocolate Orange Cupcakes: Chocolate, orange, flour
+Chocolate Caramel Brownies: Chocolate, caramel, flour
+Chocolate Hazelnut Cupcakes: Chocolate, hazelnut, flour
+Chocolate Toffee Brownies: Chocolate, toffee, flour
+Chocolate Banana Brownies: Chocolate, banana, flour
+Chocolate Peanut Butter Cupcakes: Chocolate, peanut butter, flour
+Chocolate Mint Brownies: Chocolate, mint, flour
+Chocolate Strawberry Brownies: Chocolate, strawberry, flour
+Chocolate Coconut Cupcakes: Chocolate, coconut, flour
+Chocolate Raspberry Brownies: Chocolate, raspberry, flour
+Chocolate Orange Brownies: Chocolate, orange, flour
+Chocolate Caramel Cupcakes: Chocolate, caramel, flour
+Chocolate Hazelnut Brownies: Chocolate, hazelnut, flour
+Chocolate Toffee Cupcakes: Chocolate, toffee, flour
+Chocolate Banana Cupcakes: Chocolate, banana, flour
+Chocolate Peanut Butter Brownies: Chocolate, peanut butter, flour
+Chocolate Mint Cupcakes: Chocolate, mint, flour
+Chocolate Strawberry Cupcakes: Chocolate, strawberry, flour
+Chocolate Coconut Brownies: Chocolate, coconut, flour
+Chocolate Raspberry Cupcakes: Chocolate, raspberry, flour
+Chocolate Orange Cupcakes: Chocolate, orange, flour
+Chocolate Caramel Brownies: Chocolate, caramel, flour
+Chocolate Hazelnut Cupcakes: Chocolate, hazelnut, flour
+Chocolate Toffee Brownies: Chocolate, toffee, flour
+Chocolate Banana Brownies: Chocolate, banana, flour
+Chocolate Peanut Butter Cupcakes: Chocolate, peanut butter, flour
+Chocolate Mint Brownies: Chocolate, mint, flour
+Chocolate Strawberry Brownies: Chocolate, strawberry, flour
+Chocolate Coconut Cupcakes: Chocolate, coconut, flour
+Chocolate Raspberry Brownies: Chocolate, raspberry, flour
+Chocolate Orange Brownies: Chocolate, orange, flour
+Chocolate Caramel Cupcakes: Chocolate, caramel, flour
+Chocolate Hazelnut Brownies: Chocolate, hazelnut, flour
+Chocolate Toffee Cupcakes: Chocolate, toffee, flour
+Chocolate Banana Cupcakes: Chocolate, banana, flour
+Chocolate Peanut Butter Brownies: Chocolate, peanut butter, flour
+Chocolate Mint Cupcakes: Chocolate, mint, flour
+Chocolate Strawberry Cupcakes: Chocolate, strawberry, flour
+Chocolate Coconut Brownies: Chocolate, coconut, flour
+Chocolate Raspberry Cupcakes: Chocolate, raspberry, flour
+Chocolate Orange Cupcakes: Chocolate, orange, flour
+Chocolate Caramel Brownies: Chocolate, caramel, flour
+Chocolate Hazelnut Cupcakes: Chocolate, hazelnut, flour
+Chocolate Toffee Brownies: Chocolate, toffee, flour
+Chocolate Banana Brownies: Chocolate, banana, flour
+Chocolate Peanut Butter Cupcakes: Chocolate, peanut butter, flour
+Chocolate Mint Brownies: Chocolate, mint, flour
+Chocolate Strawberry Brownies: Chocolate, strawberry, flour
+Chocolate Coconut Cupcakes: Chocolate, coconut, flour
+Chocolate Raspberry Brownies: Chocolate, raspberry, flour
+Chocolate Orange Brownies: Chocolate, orange, flour
+Chocolate Caramel Cupcakes: Chocolate, caramel, flour
+Chocolate Hazelnut Brownies: Chocolate, hazelnut, flour
+Chocolate Toffee Cupcakes: Chocolate, toffee, flour
+Chocolate Banana Cupcakes: Chocolate, banana, flour
+Chocolate Peanut Butter Brownies: Chocolate, peanut butter, flour
+Chocolate Mint Cupcakes: Chocolate, mint, flour
+Chocolate Strawberry Cupcakes: Chocolate, strawberry, flour
+Chocolate Coconut Brownies: Chocolate, coconut, flour
+Chocolate Raspberry Cupcakes: Chocolate, raspberry, flour
+Chocolate Orange Cupcakes: Chocolate, orange, flour
+Chocolate Caramel Brownies: Chocolate, caramel, flour
+Chocolate Hazelnut Cupcakes: Chocolate, hazelnut, flour
+Chocolate Toffee Brownies: Chocolate, toffee, flour
+Chocolate Banana Brownies: Chocolate, banana, flour
+Chocolate Peanut Butter Cupcakes: Chocolate, peanut butter, flour
+Chocolate Mint Brownies: Chocolate, mint, flour
+Chocolate Strawberry Brownies: Chocolate, strawberry, flour
+Chocolate Coconut Cupcakes: Chocolate, coconut, flour
+Chocolate Raspberry Brownies: Chocolate, raspberry, flour
+Chocolate Orange Brownies: Chocolate, orange, flour
+Chocolate Caramel Cupcakes: Chocolate, caramel, flour
+Chocolate Hazelnut Brownies: Chocolate, hazelnut, flour
+Chocolate Toffee Cupcakes: Chocolate, toffee, flour
+Chocolate Banana Cupcakes: Chocolate, banana, flour
+Chocolate Peanut Butter Brownies: Chocolate, peanut butter, flour
+Chocolate Mint Cupcakes: Chocolate, mint, flour
+Chocolate Strawberry Cupcakes: Chocolate, strawberry, flour
+Chocolate Coconut Brownies: Chocolate, coconut, flour
+Chocolate Raspberry Brownies: Chocolate, raspberry, flour
+Chocolate Orange Brownies: Chocolate, orange, flour
+Chocolate Caramel Cupcakes: Chocolate, caramel, flour
+Chocolate Hazelnut Brownies: Chocolate, hazelnut, flour
+Chocolate Toffee Cupcakes: Chocolate, toffee, flour
+Chocolate Banana Cupcakes: Chocolate, banana, flour
+Chocolate Peanut Butter Brownies: Chocolate, peanut butter, flour
+Chocolate Mint Cupcakes: Chocolate, mint, flour
+Chocolate Strawberry Cupcakes: Chocolate, strawberry, flour
+Chocolate Coconut Brownies: Chocolate, coconut, flour
+Chocolate Raspberry Brownies: Chocolate, raspberry, flour
+Chocolate Orange Brownies: Chocolate, orange, flour
+Chocolate Caramel Cupcakes: Chocolate, caramel, flour
+Chocolate Hazelnut Brownies: Chocolate, hazelnut, flour
+Chocolate Toffee Cupcakes: Chocolate, toffee, flour
+Chocolate Banana Cupcakes: Chocolate, banana, flour
+Chocolate Peanut Butter Brownies: Chocolate, peanut butter, flour
+Chocolate Mint Cupcakes: Chocolate, mint, flour
+Chocolate Strawberry Cupcakes: Chocolate, strawberry, flour
+Chocolate Coconut Brownies: Chocolate, coconut, flour
+Chocolate Raspberry Brownies: Chocolate, raspberry, flour
+Chocolate Orange Brownies: Chocolate, orange, flour
+Chocolate Caramel Cupcakes: Chocolate, caramel, flour
+Chocolate Hazelnut Brownies: Chocolate, hazelnut, flour
+Chocolate Toffee Cupcakes: Chocolate, toffee, flour
+Chocolate Banana Cupcakes: Chocolate, banana, flour
+
+###
+
+/Breakfast/
+
+Egg and Bacon Sandwich: Eggs, bacon, bread
+Pancakes: Flour, eggs, milk
+French Toast: Bread, eggs, milk
+Omelette: Eggs, cheese, vegetables
+Breakfast Burrito: Eggs, sausage, potatoes
+Scrambled Eggs: Eggs, butter, salt
+Waffles: Flour, eggs, butter
+Bagel with Cream Cheese: Bagel, cream cheese, smoked salmon
+Cereal and Milk: Cereal, milk, fruit
+Yogurt Parfait: Yogurt, granola, berries
+English Muffin with Jam: English muffin, jam, butter
+Frittata: Eggs, potatoes, onions
+Hash Browns: Potatoes, oil, salt
+Biscuits and Gravy: Biscuits, sausage gravy, butter
+Quiche: Eggs, cheese, spinach
+Smoothie: Banana, spinach, almond milk
+Sausage and Egg McMuffin: Sausage, eggs, English muffin
+Granola: Oats, honey, nuts
+Breakfast Tacos: Eggs, tortillas, salsa
+Egg Sandwich: Eggs, cheese, bread
+Breakfast Pizza: Pizza dough, eggs, cheese
+Bacon and Egg Muffins: Bacon, eggs, English muffins
+Breakfast Bowl: Eggs, potatoes, bacon
+Crepes: Flour, eggs, milk
+Breakfast Sausage: Ground pork, spices, salt
+Toast with Avocado: Bread, avocado, salt
+Egg Salad Sandwich: Eggs, mayonnaise, bread
+Egg McMuffin: Eggs, English muffin, Canadian bacon
+Bacon and Cheese Croissant: Bacon, cheese, croissant
+Fruit Salad: Assorted fruits, honey, mint
+Ham and Cheese Omelette: Eggs, ham, cheese
+Porridge: Oats, milk, honey
+Cinnamon Rolls: Flour, butter, cinnamon
+Breakfast Quesadilla: Eggs, cheese, tortilla
+Greek Yogurt with Honey: Greek yogurt, honey, nuts
+Egg and Cheese Bagel: Eggs, cheese, bagel
+Egg McMuffin: Eggs, English muffin, cheese
+Bacon and Egg Breakfast Burrito: Bacon, eggs, tortilla
+Bacon and Cheese Omelette: Bacon, cheese, eggs
+Egg and Bacon Breakfast Wrap: Eggs, bacon, tortilla
+Breakfast Croissant: Eggs, cheese, croissant
+Egg and Cheese Breakfast Wrap: Eggs, cheese, tortilla
+Fried Eggs: Eggs, butter, salt
+Ham and Cheese Croissant: Ham, cheese, croissant
+Bacon and Egg Croissant: Bacon, eggs, croissant
+Egg and Sausage McMuffin: Eggs, sausage, English muffin
+Scrambled Eggs with Cheese: Eggs, cheese, butter
+Breakfast Panini: Eggs, cheese, bread
+Oatmeal: Oats, water, salt
+Bacon and Egg Bagel: Bacon, eggs, bagel
+Fruit Smoothie: Banana, strawberries, yogurt
+Ham and Cheese Breakfast Wrap: Ham, cheese, tortilla
+Breakfast Sausage Patties: Ground pork, spices, salt
+Egg and Cheese Breakfast Burrito: Eggs, cheese, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Egg and Sausage Breakfast Burrito: Eggs, sausage, tortilla
+Egg and Cheese Croissant: Eggs, cheese, croissant
+Bacon and Egg Breakfast Quesadilla: Bacon, eggs, tortilla
+Egg and Bacon Breakfast Sandwich: Eggs, bacon, bread
+Bagel with Lox: Bagel, cream cheese, smoked salmon
+Egg and Cheese Breakfast Sandwich: Eggs, cheese, bread
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Sandwich: Eggs, sausage, bread
+Breakfast Bagel Sandwich: Eggs, cheese, bagel
+Breakfast Burrito Bowl: Eggs, sausage, potatoes
+Egg and Bacon Breakfast Wrap: Eggs, bacon, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Burrito: Bacon, eggs, tortilla
+Breakfast BLT Sandwich: Bacon, lettuce, tomato
+Egg and Cheese Breakfast Wrap: Eggs, cheese, tortilla
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Breakfast Sausage and Egg Burrito: Breakfast sausage, eggs, tortilla
+Egg and Cheese Breakfast Bagel: Eggs, cheese, bagel
+Egg and Bacon Breakfast Quesadilla: Eggs, bacon, tortilla
+Bacon and Egg Breakfast Wrap: Bacon, eggs, tortilla
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Wrap: Eggs, sausage, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Egg and Sausage Breakfast Burrito: Eggs, sausage, tortilla
+Egg and Cheese Croissant: Eggs, cheese, croissant
+Bacon and Egg Breakfast Quesadilla: Bacon, eggs, tortilla
+Egg and Bacon Breakfast Sandwich: Eggs, bacon, bread
+Breakfast Bagel with Cream Cheese: Bagel, cream cheese, smoked salmon
+Egg and Cheese Breakfast Sandwich: Eggs, cheese, bread
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Sandwich: Eggs, sausage, bread
+Breakfast Bagel Sandwich: Eggs, cheese, bagel
+Breakfast Burrito Bowl: Eggs, sausage, potatoes
+Egg and Bacon Breakfast Wrap: Eggs, bacon, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Burrito: Bacon, eggs, tortilla
+Breakfast BLT Sandwich: Bacon, lettuce, tomato
+Egg and Cheese Breakfast Wrap: Eggs, cheese, tortilla
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Breakfast Sausage and Egg Burrito: Breakfast sausage, eggs, tortilla
+Egg and Cheese Breakfast Bagel: Eggs, cheese, bagel
+Egg and Bacon Breakfast Quesadilla: Eggs, bacon, tortilla
+Bacon and Egg Breakfast Wrap: Bacon, eggs, tortilla
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Wrap: Eggs, sausage, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Egg and Sausage Breakfast Burrito: Eggs, sausage, tortilla
+Egg and Cheese Croissant: Eggs, cheese, croissant
+Bacon and Egg Breakfast Quesadilla: Bacon, eggs, tortilla
+Egg and Bacon Breakfast Sandwich: Eggs, bacon, bread
+Breakfast Bagel with Cream Cheese: Bagel, cream cheese, smoked salmon
+Egg and Cheese Breakfast Sandwich: Eggs, cheese, bread
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Sandwich: Eggs, sausage, bread
+Breakfast Bagel Sandwich: Eggs, cheese, bagel
+Breakfast Burrito Bowl: Eggs, sausage, potatoes
+Egg and Bacon Breakfast Wrap: Eggs, bacon, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Burrito: Bacon, eggs, tortilla
+Breakfast BLT Sandwich: Bacon, lettuce, tomato
+Egg and Cheese Breakfast Wrap: Eggs, cheese, tortilla
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Breakfast Sausage and Egg Burrito: Breakfast sausage, eggs, tortilla
+Egg and Cheese Breakfast Bagel: Eggs, cheese, bagel
+Egg and Bacon Breakfast Quesadilla: Eggs, bacon, tortilla
+Bacon and Egg Breakfast Wrap: Bacon, eggs, tortilla
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Wrap: Eggs, sausage, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Egg and Sausage Breakfast Burrito: Eggs, sausage, tortilla
+Egg and Cheese Croissant: Eggs, cheese, croissant
+Bacon and Egg Breakfast Quesadilla: Bacon, eggs, tortilla
+Egg and Bacon Breakfast Sandwich: Eggs, bacon, bread
+Breakfast Bagel with Cream Cheese: Bagel, cream cheese, smoked salmon
+Egg and Cheese Breakfast Sandwich: Eggs, cheese, bread
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Sandwich: Eggs, sausage, bread
+Breakfast Bagel Sandwich: Eggs, cheese, bagel
+Breakfast Burrito Bowl: Eggs, sausage, potatoes
+Egg and Bacon Breakfast Wrap: Eggs, bacon, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Burrito: Bacon, eggs, tortilla
+Breakfast BLT Sandwich: Bacon, lettuce, tomato
+Egg and Cheese Breakfast Wrap: Eggs, cheese, tortilla
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Breakfast Sausage and Egg Burrito: Breakfast sausage, eggs, tortilla
+Egg and Cheese Breakfast Bagel: Eggs, cheese, bagel
+Egg and Bacon Breakfast Quesadilla: Eggs, bacon, tortilla
+Bacon and Egg Breakfast Wrap: Bacon, eggs, tortilla
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Wrap: Eggs, sausage, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Egg and Sausage Breakfast Burrito: Eggs, sausage, tortilla
+Egg and Cheese Croissant: Eggs, cheese, croissant
+Bacon and Egg Breakfast Quesadilla: Bacon, eggs, tortilla
+Egg and Bacon Breakfast Sandwich: Eggs, bacon, bread
+Breakfast Bagel with Cream Cheese: Bagel, cream cheese, smoked salmon
+Egg and Cheese Breakfast Sandwich: Eggs, cheese, bread
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Sandwich: Eggs, sausage, bread
+Breakfast Bagel Sandwich: Eggs, cheese, bagel
+Breakfast Burrito Bowl: Eggs, sausage, potatoes
+Egg and Bacon Breakfast Wrap: Eggs, bacon, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Burrito: Bacon, eggs, tortilla
+Breakfast BLT Sandwich: Bacon, lettuce, tomato
+Egg and Cheese Breakfast Wrap: Eggs, cheese, tortilla
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Breakfast Sausage and Egg Burrito: Breakfast sausage, eggs, tortilla
+Egg and Cheese Breakfast Bagel: Eggs, cheese, bagel
+Egg and Bacon Breakfast Quesadilla: Eggs, bacon, tortilla
+Bacon and Egg Breakfast Wrap: Bacon, eggs, tortilla
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Wrap: Eggs, sausage, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Egg and Sausage Breakfast Burrito: Eggs, sausage, tortilla
+Egg and Cheese Croissant: Eggs, cheese, croissant
+Bacon and Egg Breakfast Quesadilla: Bacon, eggs, tortilla
+Egg and Bacon Breakfast Sandwich: Eggs, bacon, bread
+Breakfast Bagel with Cream Cheese: Bagel, cream cheese, smoked salmon
+Egg and Cheese Breakfast Sandwich: Eggs, cheese, bread
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Sandwich: Eggs, sausage, bread
+Breakfast Bagel Sandwich: Eggs, cheese, bagel
+Breakfast Burrito Bowl: Eggs, sausage, potatoes
+Egg and Bacon Breakfast Wrap: Eggs, bacon, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Burrito: Bacon, eggs, tortilla
+Breakfast BLT Sandwich: Bacon, lettuce, tomato
+Egg and Cheese Breakfast Wrap: Eggs, cheese, tortilla
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Breakfast Sausage and Egg Burrito: Breakfast sausage, eggs, tortilla
+Egg and Cheese Breakfast Bagel: Eggs, cheese, bagel
+Egg and Bacon Breakfast Quesadilla: Eggs, bacon, tortilla
+Bacon and Egg Breakfast Wrap: Bacon, eggs, tortilla
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Wrap: Eggs, sausage, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Egg and Sausage Breakfast Burrito: Eggs, sausage, tortilla
+Egg and Cheese Croissant: Eggs, cheese, croissant
+Bacon and Egg Breakfast Quesadilla: Bacon, eggs, tortilla
+Egg and Bacon Breakfast Sandwich: Eggs, bacon, bread
+Breakfast Bagel with Cream Cheese: Bagel, cream cheese, smoked salmon
+Egg and Cheese Breakfast Sandwich: Eggs, cheese, bread
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Sandwich: Eggs, sausage, bread
+Breakfast Bagel Sandwich: Eggs, cheese, bagel
+Breakfast Burrito Bowl: Eggs, sausage, potatoes
+Egg and Bacon Breakfast Wrap: Eggs, bacon, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Burrito: Bacon, eggs, tortilla
+Breakfast BLT Sandwich: Bacon, lettuce, tomato
+Egg and Cheese Breakfast Wrap: Eggs, cheese, tortilla
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Breakfast Sausage and Egg Burrito: Breakfast sausage, eggs, tortilla
+Egg and Cheese Breakfast Bagel: Eggs, cheese, bagel
+Egg and Bacon Breakfast Quesadilla: Eggs, bacon, tortilla
+Bacon and Egg Breakfast Wrap: Bacon, eggs, tortilla
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Wrap: Eggs, sausage, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Egg and Sausage Breakfast Burrito: Eggs, sausage, tortilla
+Egg and Cheese Croissant: Eggs, cheese, croissant
+Bacon and Egg Breakfast Quesadilla: Bacon, eggs, tortilla
+Egg and Bacon Breakfast Sandwich: Eggs, bacon, bread
+Breakfast Bagel with Cream Cheese: Bagel, cream cheese, smoked salmon
+Egg and Cheese Breakfast Sandwich: Eggs, cheese, bread
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Sandwich: Eggs, sausage, bread
+Breakfast Bagel Sandwich: Eggs, cheese, bagel
+Breakfast Burrito Bowl: Eggs, sausage, potatoes
+Egg and Bacon Breakfast Wrap: Eggs, bacon, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Burrito: Bacon, eggs, tortilla
+Breakfast BLT Sandwich: Bacon, lettuce, tomato
+Egg and Cheese Breakfast Wrap: Eggs, cheese, tortilla
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Breakfast Sausage and Egg Burrito: Breakfast sausage, eggs, tortilla
+Egg and Cheese Breakfast Bagel: Eggs, cheese, bagel
+Egg and Bacon Breakfast Quesadilla: Eggs, bacon, tortilla
+Bacon and Egg Breakfast Wrap: Bacon, eggs, tortilla
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Wrap: Eggs, sausage, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Egg and Sausage Breakfast Burrito: Eggs, sausage, tortilla
+Egg and Cheese Croissant: Eggs, cheese, croissant
+Bacon and Egg Breakfast Quesadilla: Bacon, eggs, tortilla
+Egg and Bacon Breakfast Sandwich: Eggs, bacon, bread
+Breakfast Bagel with Cream Cheese: Bagel, cream cheese, smoked salmon
+Egg and Cheese Breakfast Sandwich: Eggs, cheese, bread
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Sandwich: Eggs, sausage, bread
+Breakfast Bagel Sandwich: Eggs, cheese, bagel
+Breakfast Burrito Bowl: Eggs, sausage, potatoes
+Egg and Bacon Breakfast Wrap: Eggs, bacon, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Burrito: Bacon, eggs, tortilla
+Breakfast BLT Sandwich: Bacon, lettuce, tomato
+Egg and Cheese Breakfast Wrap: Eggs, cheese, tortilla
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Breakfast Sausage and Egg Burrito: Breakfast sausage, eggs, tortilla
+Egg and Cheese Breakfast Bagel: Eggs, cheese, bagel
+Egg and Bacon Breakfast Quesadilla: Eggs, bacon, tortilla
+Bacon and Egg Breakfast Wrap: Bacon, eggs, tortilla
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Wrap: Eggs, sausage, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Egg and Sausage Breakfast Burrito: Eggs, sausage, tortilla
+Egg and Cheese Croissant: Eggs, cheese, croissant
+Bacon and Egg Breakfast Quesadilla: Bacon, eggs, tortilla
+Egg and Bacon Breakfast Sandwich: Eggs, bacon, bread
+Breakfast Bagel with Cream Cheese: Bagel, cream cheese, smoked salmon
+Egg and Cheese Breakfast Sandwich: Eggs, cheese, bread
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Sandwich: Eggs, sausage, bread
+Breakfast Bagel Sandwich: Eggs, cheese, bagel
+Breakfast Burrito Bowl: Eggs, sausage, potatoes
+Egg and Bacon Breakfast Wrap: Eggs, bacon, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Burrito: Bacon, eggs, tortilla
+Breakfast BLT Sandwich: Bacon, lettuce, tomato
+Egg and Cheese Breakfast Wrap: Eggs, cheese, tortilla
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Breakfast Sausage and Egg Burrito: Breakfast sausage, eggs, tortilla
+Egg and Cheese Breakfast Bagel: Eggs, cheese, bagel
+Egg and Bacon Breakfast Quesadilla: Eggs, bacon, tortilla
+Bacon and Egg Breakfast Wrap: Bacon, eggs, tortilla
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Wrap: Eggs, sausage, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Sandwich: Bacon, eggs, bread
+Egg and Sausage Breakfast Burrito: Eggs, sausage, tortilla
+Egg and Cheese Croissant: Eggs, cheese, croissant
+Bacon and Egg Breakfast Quesadilla: Bacon, eggs, tortilla
+Egg and Bacon Breakfast Sandwich: Eggs, bacon, bread
+Breakfast Bagel with Cream Cheese: Bagel, cream cheese, smoked salmon
+Egg and Cheese Breakfast Sandwich: Eggs, cheese, bread
+Breakfast Panini Sandwich: Eggs, cheese, bread
+Egg and Cheese Breakfast Quesadilla: Eggs, cheese, tortilla
+Egg and Sausage Breakfast Sandwich: Eggs, sausage, bread
+Breakfast Bagel Sandwich: Eggs, cheese, bagel
+Breakfast Burrito Bowl: Eggs, sausage, potatoes
+Egg and Bacon Breakfast Wrap: Eggs, bacon, tortilla
+Breakfast Croissant Sandwich: Eggs, cheese, croissant
+Bacon and Egg Breakfast Burrito: Bacon, eggs, tortilla
+Breakfast BLT Sandwich: Bacon, lettuce, tomato
+
+###
+
+/Lunch/
+
+Turkey Sandwich: Turkey, lettuce, bread
+Caesar Salad: Lettuce, croutons, Caesar dressing
+Grilled Cheese Sandwich: Bread, cheese, butter
+Chicken Salad: Chicken, lettuce, mayonnaise
+BLT Sandwich: Bacon, lettuce, tomato
+Club Sandwich: Turkey, bacon, lettuce
+Caprese Salad: Tomatoes, mozzarella, basil
+Chicken Caesar Wrap: Chicken, lettuce, Caesar dressing
+Ham and Cheese Sandwich: Ham, cheese, bread
+Tuna Salad: Tuna, lettuce, mayonnaise
+Chicken Wrap: Chicken, lettuce, tortilla
+Chef's Salad: Lettuce, turkey, cheese
+Vegetable Soup: Vegetables, broth, herbs
+Tomato Soup: Tomatoes, broth, cream
+Chicken Noodle Soup: Chicken, noodles, broth
+Pasta Salad: Pasta, vegetables, Italian dressing
+Egg Salad Sandwich: Eggs, mayonnaise, lettuce
+Greek Salad: Lettuce, olives, feta cheese
+Chicken Sandwich: Chicken, lettuce, bread
+Cobb Salad: Lettuce, chicken, avocado
+Ham and Cheese Wrap: Ham, cheese, tortilla
+Macaroni and Cheese: Macaroni, cheese, milk
+Beef Sandwich: Beef, lettuce, bread
+Shrimp Salad: Shrimp, lettuce, mayonnaise
+Vegetarian Wrap: Vegetables, cheese, tortilla
+Tuna Sandwich: Tuna, lettuce, bread
+Chicken Caesar Salad: Chicken, lettuce, Caesar dressing
+Grilled Chicken Sandwich: Chicken, lettuce, bread
+Turkey Wrap: Turkey, lettuce, tortilla
+Veggie Burger: Veggie patty, lettuce, tomato
+Spinach Salad: Spinach, almonds, strawberries
+Buffalo Chicken Wrap: Chicken, lettuce, tortilla
+Eggplant Parmesan: Eggplant, marinara sauce, cheese
+Chicken Quesadilla: Chicken, cheese, tortilla
+Turkey Salad: Turkey, lettuce, mayonnaise
+Potato Soup: Potatoes, broth, cream
+Chicken Fajitas: Chicken, peppers, onions
+Shrimp Pasta: Shrimp, pasta, marinara sauce
+Chicken Teriyaki Bowl: Chicken, rice, teriyaki sauce
+Chicken Parmesan Sandwich: Chicken, marinara sauce, cheese
+Grilled Chicken Salad: Chicken, lettuce, vinaigrette
+Philly Cheesesteak Sandwich: Beef, cheese, bread
+Chicken Caesar Wrap: Chicken, lettuce, tortilla
+Tuna Salad Sandwich: Tuna, lettuce, bread
+Steak Salad: Steak, lettuce, vinaigrette
+Chicken Tortilla Soup: Chicken, tortilla strips, broth
+Vegetable Stir-Fry: Vegetables, tofu, soy sauce
+Beef Burrito: Beef, rice, tortilla
+Pulled Pork Sandwich: Pork, barbecue sauce, bread
+Chicken Shawarma Wrap: Chicken, lettuce, pita
+Cranberry Walnut Salad: Lettuce, cranberries, walnuts
+Tomato Mozzarella Panini: Tomatoes, mozzarella, bread
+Beef Tacos: Beef, tortillas, toppings
+Chicken Alfredo: Chicken, pasta, Alfredo sauce
+Greek Wrap: Chicken, feta cheese, olives
+Cajun Chicken Pasta: Chicken, pasta, Cajun seasoning
+Beef Stir-Fry: Beef, vegetables, soy sauce
+Chicken and Rice Soup: Chicken, rice, broth
+Mushroom Swiss Burger: Beef patty, mushrooms, Swiss cheese
+Chicken Pesto Panini: Chicken, pesto, bread
+Turkey and Swiss Sandwich: Turkey, Swiss cheese, bread
+Quinoa Salad: Quinoa, vegetables, vinaigrette
+Beef and Broccoli Stir-Fry: Beef, broccoli, soy sauce
+Chicken Enchiladas: Chicken, tortillas, enchilada sauce
+Buffalo Chicken Salad: Chicken, lettuce, buffalo sauce
+Salmon Salad: Salmon, lettuce, vinaigrette
+BBQ Chicken Sandwich: Chicken, barbecue sauce, bread
+Mediterranean Wrap: Chicken, hummus, pita
+Chicken Cobb Wrap: Chicken, lettuce, tortilla
+Turkey Cobb Salad: Turkey, lettuce, bacon
+Spinach and Feta Salad: Spinach, feta cheese, vinaigrette
+Pesto Chicken Sandwich: Chicken, pesto, bread
+Vegetable Wrap: Vegetables, hummus, tortilla
+Black Bean Burger: Black beans, lettuce, tomato
+Chicken Gyro: Chicken, lettuce, pita
+Shrimp Tacos: Shrimp, tortillas, toppings
+Teriyaki Salmon Bowl: Salmon, rice, teriyaki sauce
+Eggplant Caponata: Eggplant, tomatoes, olives
+Vegetarian Chili: Beans, vegetables, spices
+Chicken Caesar Salad Wrap: Chicken, lettuce, tortilla
+Turkey and Avocado Sandwich: Turkey, avocado, bread
+Pulled Chicken Sandwich: Chicken, barbecue sauce, bread
+Chicken Pita Wrap: Chicken, lettuce, pita
+Asian Chicken Salad: Chicken, lettuce, Asian dressing
+Falafel Wrap: Falafel, lettuce, pita
+Chicken BLT Wrap: Chicken, bacon, lettuce
+Tofu Stir-Fry: Tofu, vegetables, soy sauce
+Chicken Pesto Pasta: Chicken, pasta, pesto sauce
+Vegetable Curry: Vegetables, curry sauce, rice
+Cobb Salad Wrap: Turkey, bacon, lettuce
+Chicken and Avocado Sandwich: Chicken, avocado, bread
+Italian Sub Sandwich: Salami, ham, provolone cheese
+Shrimp Caesar Salad: Shrimp, lettuce, Caesar dressing
+Chicken Feta Wrap: Chicken, feta cheese, tortilla
+Roast Beef Sandwich: Roast beef, lettuce, bread
+Chicken Teriyaki Wrap: Chicken, teriyaki sauce, tortilla
+Grilled Vegetable Panini: Vegetables, cheese, bread
+Chicken Caesar Salad Wrap: Chicken, lettuce, tortilla
+Turkey and Cranberry Sandwich: Turkey, cranberry sauce, bread
+Tuna Salad Wrap: Tuna, lettuce, tortilla
+Chicken Fajita Wrap: Chicken, peppers, tortilla
+Roast Beef Wrap: Roast beef, lettuce, tortilla
+Chicken Avocado Wrap: Chicken, avocado, tortilla
+Greek Chicken Salad: Chicken, lettuce, feta cheese
+Vegetable Spring Rolls: Vegetables, rice paper, dipping sauce
+Chicken Caesar Salad Wrap: Chicken, lettuce, tortilla
+Turkey and Cranberry Sandwich: Turkey, cranberry sauce, bread
+Tuna Salad Wrap: Tuna, lettuce, tortilla
+Chicken Fajita Wrap: Chicken, peppers, tortilla
+Roast Beef Wrap: Roast beef, lettuce, tortilla
+Chicken Avocado Wrap: Chicken, avocado, tortilla
+Greek Chicken Salad: Chicken, lettuce, feta cheese
+Vegetable Spring Rolls: Vegetables, rice paper, dipping sauce
+Chicken Caesar Salad Wrap: Chicken, lettuce, tortilla
+Turkey and Cranberry Sandwich: Turkey, cranberry sauce, bread
+Tuna Salad Wrap: Tuna, lettuce, tortilla
+Chicken Fajita Wrap: Chicken, peppers, tortilla
+Roast Beef Wrap: Roast beef, lettuce, tortilla
+Chicken Avocado Wrap: Chicken, avocado, tortilla
+Greek Chicken Salad: Chicken, lettuce, feta cheese
+Vegetable Spring Rolls: Vegetables, rice paper, dipping sauce
+Chicken Caesar Salad Wrap: Chicken, lettuce, tortilla
+Turkey and Cranberry Sandwich: Turkey, cranberry sauce, bread
+Tuna Salad Wrap: Tuna, lettuce, tortilla
+Chicken Fajita Wrap: Chicken, peppers, tortilla
+Roast Beef Wrap: Roast beef, lettuce, tortilla
+Chicken Avocado Wrap: Chicken, avocado, tortilla
+Greek Chicken Salad: Chicken, lettuce, feta cheese
+Vegetable Spring Rolls: Vegetables, rice paper, dipping sauce
+Chicken Caesar Salad Wrap: Chicken, lettuce, tortilla
+Turkey and Cranberry Sandwich: Turkey, cranberry sauce, bread
+Tuna Salad Wrap: Tuna, lettuce, tortilla
+Chicken Fajita Wrap: Chicken, peppers, tortilla
+Roast Beef Wrap: Roast beef, lettuce, tortilla
+Chicken Avocado Wrap: Chicken, avocado, tortilla
+Greek Chicken Salad: Chicken, lettuce, feta cheese
+Vegetable Spring Rolls: Vegetables, rice paper, dipping sauce
+Chicken Caesar Salad Wrap: Chicken, lettuce, tortilla
+Turkey and Cranberry Sandwich: Turkey, cranberry sauce, bread
+Tuna Salad Wrap: Tuna, lettuce, tortilla
+Chicken Fajita Wrap: Chicken, peppers, tortilla
+Roast Beef Wrap: Roast beef, lettuce, tortilla
+Chicken Avocado Wrap: Chicken, avocado, tortilla
+Greek Chicken Salad: Chicken, lettuce, feta cheese
+Vegetable Spring Rolls: Vegetables, rice paper, dipping sauce
+Chicken Caesar Salad Wrap: Chicken, lettuce, tortilla
+Turkey and Cranberry Sandwich: Turkey, cranberry sauce, bread
+Tuna Salad Wrap: Tuna, lettuce, tortilla
+Chicken Fajita Wrap: Chicken, peppers, tortilla
+Roast Beef Wrap: Roast beef, lettuce, tortilla
+Chicken Avocado Wrap: Chicken, avocado, tortilla
+Greek Chicken Salad: Chicken, lettuce, feta cheese
+Vegetable Spring Rolls: Vegetables, rice paper, dipping sauce
+
+###
+
+/Dinner/
+
+Grilled Salmon: Salmon, lemon, herbs
+Spaghetti Bolognese: Ground beef, tomatoes, pasta
+Chicken Alfredo: Chicken, pasta, Alfredo sauce
+Roast Chicken: Chicken, potatoes, carrots
+Stir-Fry Tofu: Tofu, vegetables, soy sauce
+Beef Stir-Fry: Beef, vegetables, soy sauce
+Vegetable Curry: Vegetables, curry sauce, rice
+Shrimp Scampi: Shrimp, garlic, butter
+Beef Stroganoff: Beef, mushrooms, sour cream
+Chicken Parmesan: Chicken, marinara sauce, cheese
+Salmon Teriyaki: Salmon, teriyaki sauce, rice
+Pasta Primavera: Pasta, vegetables, cream sauce
+Stuffed Bell Peppers: Ground beef, rice, bell peppers
+Lemon Herb Chicken: Chicken, lemon, herbs
+Vegetable Lasagna: Vegetables, pasta, marinara sauce
+Baked Ziti: Pasta, cheese, marinara sauce
+Garlic Shrimp Pasta: Shrimp, garlic, pasta
+Beef Tacos: Beef, tortillas, toppings
+Chicken Enchiladas: Chicken, tortillas, enchilada sauce
+Spicy Tofu Stir-Fry: Tofu, vegetables, spicy sauce
+Beef Chili: Ground beef, beans, tomatoes
+Mushroom Risotto: Mushrooms, rice, broth
+Honey Glazed Ham: Ham, honey, cloves
+Lemon Garlic Salmon: Salmon, lemon, garlic
+Chicken Marsala: Chicken, mushrooms, Marsala wine
+Shrimp Fried Rice: Shrimp, rice, vegetables
+Beef Teriyaki: Beef, teriyaki sauce, rice
+Vegetable Paella: Vegetables, rice, saffron
+Chicken Piccata: Chicken, lemon, capers
+Seafood Paella: Seafood mix, rice, saffron
+Beef Kebabs: Beef, vegetables, skewers
+Chicken Stir-Fry: Chicken, vegetables, soy sauce
+Lemon Herb Salmon: Salmon, lemon, herbs
+Pesto Pasta: Pasta, pesto sauce, cheese
+Beef and Broccoli Stir-Fry: Beef, broccoli, soy sauce
+Teriyaki Chicken: Chicken, teriyaki sauce, rice
+Vegetable Stir-Fry: Vegetables, tofu, soy sauce
+Pork Tenderloin: Pork, potatoes, vegetables
+Shrimp Scampi Pasta: Shrimp, pasta, garlic
+Beef Bourguignon: Beef, red wine, mushrooms
+Chicken Fajitas: Chicken, peppers, onions
+Sesame Tofu: Tofu, sesame seeds, soy sauce
+Vegetarian Chili: Beans, vegetables, spices
+Salmon Pasta: Salmon, pasta, cream sauce
+Lamb Chops: Lamb, rosemary, garlic
+Pork Ribs: Pork, barbecue sauce, spices
+Stuffed Chicken Breast: Chicken, spinach, cheese
+Beef Wellington: Beef, puff pastry, mushrooms
+Chicken Teriyaki Stir-Fry: Chicken, vegetables, teriyaki sauce
+Shrimp Scampi Linguine: Shrimp, linguine, garlic
+Beef and Mushroom Risotto: Beef, mushrooms, rice
+Orange Glazed Salmon: Salmon, orange, honey
+Chicken and Rice Casserole: Chicken, rice, vegetables
+Tofu Pad Thai: Tofu, noodles, peanuts
+Vegetable Ratatouille: Vegetables, tomatoes, herbs
+Pork Stir-Fry: Pork, vegetables, soy sauce
+Coq au Vin: Chicken, red wine, mushrooms
+Soy Glazed Salmon: Salmon, soy sauce, ginger
+Lemon Garlic Shrimp: Shrimp, lemon, garlic
+Beef Pot Roast: Beef, potatoes, carrots
+Chicken Cacciatore: Chicken, tomatoes, peppers
+Vegetable Lasagna Roll-Ups: Vegetables, pasta, marinara sauce
+Sesame Ginger Beef: Beef, sesame oil, ginger
+Honey Mustard Chicken: Chicken, honey, mustard
+Shrimp and Grits: Shrimp, grits, bacon
+Beef and Broccoli Rice Bowl: Beef, broccoli, rice
+Miso Glazed Salmon: Salmon, miso paste, soy sauce
+Chicken and Mushroom Risotto: Chicken, mushrooms, rice
+Spicy Garlic Tofu: Tofu, garlic, chili flakes
+Vegetable Lo Mein: Vegetables, noodles, soy sauce
+Pork Schnitzel: Pork, breadcrumbs, lemon
+Mushroom Stroganoff: Mushrooms, sour cream, pasta
+Baked Lemon Herb Chicken: Chicken, lemon, herbs
+Sesame Crusted Tofu: Tofu, sesame seeds, soy sauce
+Creamy Garlic Chicken: Chicken, garlic, cream sauce
+Honey Sriracha Salmon: Salmon, honey, Sriracha
+Beef and Vegetable Skewers: Beef, vegetables, skewers
+Chicken Tortilla Soup: Chicken, tortillas, broth
+Mushroom Ravioli: Mushrooms, pasta, cheese
+Spicy Peanut Tofu: Tofu, peanuts, spicy sauce
+Beef Burrito Bowl: Beef, rice, beans
+Orange Ginger Chicken: Chicken, orange, ginger
+Garlic Butter Shrimp: Shrimp, garlic, butter
+Vegetable Pad Thai: Vegetables, noodles, peanuts
+Pork Carnitas: Pork, tortillas, toppings
+Chicken Pot Pie: Chicken, vegetables, pie crust
+Lemon Garlic Shrimp Pasta: Shrimp, pasta, garlic
+Beef and Black Bean Stir-Fry: Beef, black beans, vegetables
+Chicken Fettuccine Alfredo: Chicken, pasta, Alfredo sauce
+Maple Glazed Salmon: Salmon, maple syrup, mustard
+Sesame Orange Tofu: Tofu, orange, sesame seeds
+Beef Shepherd's Pie: Beef, potatoes, vegetables
+Chicken Florentine: Chicken, spinach, cream sauce
+Soy Garlic Beef: Beef, soy sauce, garlic
+Vegetable Curry with Chickpeas: Vegetables, chickpeas, curry sauce
+Pork Chops with Applesauce: Pork, apples, cinnamon
+Chicken and Broccoli Alfredo: Chicken, broccoli, Alfredo sauce
+Mushroom Quinoa Risotto: Mushrooms, quinoa, broth
+Shrimp Tacos with Mango Salsa: Shrimp, tortillas, mango
+Beef Gyro: Beef, pita, tzatziki sauce
+Chicken Teriyaki Rice Bowl: Chicken, teriyaki sauce, rice
+Eggplant Parmesan: Eggplant, marinara sauce, cheese
+Sesame Chicken Stir-Fry: Chicken, vegetables, sesame sauce
+Pork Tenderloin with Apple Glaze: Pork, apples, honey
+Creamy Mushroom Pasta: Mushrooms, pasta, cream sauce
+Honey Balsamic Chicken: Chicken, honey, balsamic vinegar
+Stuffed Bell Peppers with Quinoa: Quinoa, bell peppers, cheese
+Pork Loin with Cranberry Sauce: Pork, cranberries, orange
+Chicken and Vegetable Stir-Fry: Chicken, vegetables, soy sauce
+Spinach and Ricotta Stuffed Shells: Spinach, ricotta cheese, pasta shells
+Miso Glazed Tofu: Tofu, miso paste, soy sauce
+Balsamic Glazed Salmon: Salmon, balsamic vinegar, honey
+Chicken and Asparagus Risotto: Chicken, asparagus, rice
+Spicy Garlic Shrimp Stir-Fry: Shrimp, garlic, chili flakes
+Beef and Bean Chili: Beef, beans, tomatoes
+Lemon Herb Pork Chops: Pork, lemon, herbs
+Chicken and Mushroom Stroganoff: Chicken, mushrooms, sour cream
+Sesame Tofu Stir-Fry: Tofu, vegetables, sesame sauce
+Pork Tenderloin with Mustard Sauce: Pork, mustard, honey
+Creamy Spinach and Mushroom Pasta: Spinach, mushrooms, pasta
+Honey Soy Glazed Salmon: Salmon, honey, soy sauce
+Chicken and Sweet Potato Curry: Chicken, sweet potatoes, curry sauce
+Mushroom and Spinach Risotto: Mushrooms, spinach, rice
+Teriyaki Tofu Bowl: Tofu, teriyaki sauce, rice
+Balsamic Chicken with Roasted Vegetables: Chicken, balsamic vinegar, vegetables
+Shrimp and Vegetable Stir-Fry: Shrimp, vegetables, soy sauce
+Beef and Vegetable Curry: Beef, vegetables, curry sauce
+Garlic Butter Shrimp Pasta: Shrimp, garlic, butter
+Pork Chops with Apple Compote: Pork, apples, cinnamon
+Chicken and Spinach Alfredo: Chicken, spinach, Alfredo sauce
+Soy Ginger Glazed Salmon: Salmon, soy sauce, ginger
+Vegetable and Chickpea Curry: Vegetables, chickpeas, curry sauce
+Pork Tenderloin with Cranberry Glaze: Pork, cranberries, honey
+Chicken and Mushroom Pasta Bake: Chicken, mushrooms, pasta
+Miso Glazed Salmon with Bok Choy: Salmon, miso paste, bok choy
+Beef and Broccoli Lo Mein: Beef, broccoli, noodles
+Sesame Ginger Chicken Stir-Fry: Chicken, vegetables, sesame sauce
+Honey Garlic Shrimp Stir-Fry: Shrimp, garlic, honey
+Creamy Mushroom Risotto: Mushrooms, rice, cream sauce
+Lemon Herb Pork Tenderloin: Pork, lemon, herbs
+Chicken and Broccoli Stir-Fry: Chicken, broccoli, soy sauce
+Sesame Crusted Salmon: Salmon, sesame seeds, soy sauce
+Beef and Mushroom Stew: Beef, mushrooms, broth
+Lemon Garlic Chicken Stir-Fry: Chicken, garlic, lemon
+Soy Glazed Tofu: Tofu, soy sauce, ginger
+Vegetable and Lentil Curry: Vegetables, lentils, curry sauce
+Pork Chops with Honey Mustard Sauce: Pork, honey, mustard
+Chicken and Vegetable Curry: Chicken, vegetables, curry sauce
+Miso Glazed Eggplant: Eggplant, miso paste, soy sauce
+Sesame Chicken Salad: Chicken, lettuce, sesame dressing
+Honey Garlic Tofu Stir-Fry: Tofu, garlic, honey
+Creamy Mushroom Chicken: Chicken, mushrooms, cream sauce
+Lemon Herb Shrimp Pasta: Shrimp, pasta, lemon
+Beef and Potato Curry: Beef, potatoes, curry sauce
+Chicken and Spinach Stuffed Peppers: Chicken, spinach, bell peppers
+Sesame Ginger Tofu Stir-Fry: Tofu, vegetables, sesame sauce
+Honey Balsamic Pork Chops: Pork, honey, balsamic vinegar
+Chicken and Mushroom Marsala: Chicken, mushrooms, Marsala wine
+Soy Glazed Salmon with Bok Choy: Salmon, soy sauce, bok choy
+Vegetable and Chickpea Stew: Vegetables, chickpeas, broth
+Pork Tenderloin with Maple Glaze: Pork, maple syrup, mustard
+Chicken and Broccoli Alfredo Bake: Chicken, broccoli, Alfredo sauce
+Sesame Orange Chicken Stir-Fry: Chicken, vegetables, orange sauce
+Honey Garlic Beef Stir-Fry: Beef, garlic, honey
+Creamy Spinach and Mushroom Risotto: Spinach, mushrooms, rice
+Lemon Garlic Shrimp Pasta with Spinach: Shrimp, pasta, garlic
+Soy Ginger Salmon with Asparagus: Salmon, soy sauce, ginger
+Vegetable and Lentil Stew: Vegetables, lentils, broth
+Pork Chops with Apple Sage Sauce: Pork, apples, sage
+Chicken and Vegetable Stir-Fry with Noodles: Chicken, vegetables, noodles
+Miso Glazed Tofu with Bok Choy: Tofu, miso paste, bok choy
+Sesame Crusted Chicken Salad: Chicken, lettuce, sesame dressing
+Honey Garlic Shrimp with Broccoli: Shrimp, garlic, honey
+Creamy Mushroom Chicken with Rice: Chicken, mushrooms, cream sauce
+Lemon Herb Pork Chops with Potatoes: Pork, lemon, herbs
+Chicken and Broccoli Stir-Fry with Rice: Chicken, broccoli, soy sauce
+Sesame Crusted Salmon with Green Beans: Salmon, sesame seeds, green beans
+Beef and Mushroom Curry: Beef, mushrooms, curry sauce
+Lemon Garlic Chicken with Asparagus: Chicken, garlic, lemon
+Soy Glazed Tofu with Bok Choy: Tofu, soy sauce, bok choy
+Vegetable and Chickpea Curry with Rice: Vegetables, chickpeas, curry sauce
+Pork Chops with Apple Cider Glaze: Pork, apple cider, mustard
+Chicken and Vegetable Stir-Fry with Udon: Chicken, vegetables, udon noodles
+Miso Glazed Eggplant with Rice: Eggplant, miso paste, rice
+Sesame Ginger Tofu with Broccoli: Tofu, ginger, sesame sauce
+Honey Balsamic Pork Tenderloin: Pork, honey, balsamic vinegar
+Chicken and Mushroom Marsala with Pasta: Chicken, mushrooms, Marsala wine
+Soy Glazed Salmon with Bok Choy and Rice: Salmon, soy sauce, bok choy
+Vegetable and Chickpea Stew with Naan: Vegetables, chickpeas, broth
+Pork Tenderloin with Maple Mustard Glaze: Pork, maple syrup, mustard
+Chicken and Broccoli Alfredo Bake with Garlic Bread: Chicken, broccoli, Alfredo sauce
+Sesame Orange Chicken Stir-Fry with Jasmine Rice: Chicken, orange, sesame sauce
+Honey Garlic Beef Stir-Fry with Vegetables: Beef, garlic, honey
+Creamy Spinach and Mushroom Risotto with Parmesan: Spinach, mushrooms, rice
+Lemon Garlic Shrimp Pasta with Spinach and Tomatoes: Shrimp, pasta, garlic
+Soy Ginger Salmon with Asparagus and Quinoa: Salmon, soy sauce, ginger
+Vegetable and Lentil Stew with Crusty Bread: Vegetables, lentils, broth
+Pork Chops with Apple Sage Sauce and Mashed Potatoes: Pork, apples, sage
+Chicken and Vegetable Stir-Fry with Noodles and Peanut Sauce: Chicken, vegetables, noodles
+Miso Glazed Tofu with Bok Choy and Brown Rice: Tofu, miso paste, bok choy
+Sesame Crusted Chicken Salad with Ginger Dressing: Chicken, lettuce, sesame dressing
+Honey Garlic Shrimp with Broccoli and Jasmine Rice: Shrimp, garlic, honey
+Creamy Mushroom Chicken with Rice and Steamed Broccoli: Chicken, mushrooms, cream sauce
+Lemon Herb Pork Chops with Potatoes and Green Beans: Pork, lemon, herbs
+Chicken and Broccoli Stir-Fry with Rice and Egg Rolls: Chicken, broccoli, soy sauce
+Sesame Crusted Salmon with Green Beans and Quinoa: Salmon, sesame seeds, green beans
+Beef and Mushroom Curry with Jasmine Rice: Beef, mushrooms, curry sauce
+Lemon Garlic Chicken with Asparagus and Roasted Potatoes: Chicken, garlic, lemon
+Soy Glazed Tofu with Bok Choy and Brown Rice: Tofu, soy sauce, bok choy
+Vegetable and Chickpea Curry with Rice and Naan: Vegetables, chickpeas, curry sauce
+Pork Chops with Apple Cider Glaze and Sweet Potato Mash: Pork, apple cider, mustard
+Chicken and Vegetable Stir-Fry with Udon and Teriyaki Sauce: Chicken, vegetables, udon noodles
+Miso Glazed Eggplant with Rice and Steamed Broccoli: Eggplant, miso paste, rice
+Sesame Ginger Tofu with Broccoli and Jasmine Rice: Tofu, ginger, sesame sauce
+Honey Balsamic Pork Tenderloin with Roasted Carrots and Potatoes: Pork, honey, balsamic vinegar
+Chicken and Mushroom Marsala with Pasta and Garlic Bread: Chicken, mushrooms, Marsala wine
+Soy Glazed Salmon with Bok Choy and Rice Noodles: Salmon, soy sauce, bok choy
+Vegetable and Chickpea Stew with Naan Bread and Hummus: Vegetables, chickpeas, broth
