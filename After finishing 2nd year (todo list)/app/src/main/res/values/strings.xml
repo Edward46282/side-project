@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TaskToDo</string>
+    <string name="Priority_description">Smaller numbers have higher priority.</string>
+</resources>
