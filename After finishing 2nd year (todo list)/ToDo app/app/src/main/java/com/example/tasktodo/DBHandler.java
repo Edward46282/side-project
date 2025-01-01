@@ -52,7 +52,7 @@ public class DBHandler extends SQLiteOpenHelper {
         String title = task.getTitle();
         int priority = task.getPriority();
         int[] date = task.getDate();
-
+        //converting date array to a string
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < date.length; i++) {
             sb.append(date[i]);
@@ -72,7 +72,7 @@ public class DBHandler extends SQLiteOpenHelper {
         return result;
     }
 
-    public void deleteTask(int id){
+    public void deleteTask(long id){
         SQLiteDatabase db = this.getWritableDatabase();
         db.delete(TABLE_TASKS, KEY_ID + " = ?", new String[]{String.valueOf(id)} //the last parameter
                 //is just changing id into string representation and put it in the array
@@ -140,6 +140,7 @@ public class DBHandler extends SQLiteOpenHelper {
         String title = cursor.getString(cursor.getColumnIndexOrThrow(KEY_TITLE));
         int priority = cursor.getInt(cursor.getColumnIndexOrThrow(KEY_PRIORITY));
         String date = cursor.getString(cursor.getColumnIndexOrThrow(KEY_DATE));
+        long id = cursor.getLong(cursor.getColumnIndexOrThrow(KEY_ID));
 
         int[] arrDate = new int[3];
         StringBuilder accumulate = new StringBuilder();
@@ -154,6 +155,9 @@ public class DBHandler extends SQLiteOpenHelper {
             }
         }
 
-        return new Task(title, arrDate, priority);
+        Task tmpTask = new Task(title, arrDate, priority);
+        tmpTask.setId(id);
+
+        return tmpTask;
     }
 }

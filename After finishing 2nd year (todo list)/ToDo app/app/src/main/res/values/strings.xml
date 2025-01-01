@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">TaskToDo</string>
     <string name="Priority_description">Smaller numbers have higher priority.</string>
+    <string name="TaskDateInstruction">If you like to modify the task date, Please delete the task you desire, and
+    create a new task with the correct date.</string>
+
 </resources>

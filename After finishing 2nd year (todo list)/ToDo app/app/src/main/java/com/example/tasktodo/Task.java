@@ -6,6 +6,7 @@ public class Task {
     private int[] date = new int[3]; //task index 0 = year & month, day
     private int priority;
     private String title;
+    private long id;
 
     public Task(String title, int[] data, int priority){
         this.priority = priority;
@@ -31,5 +32,12 @@ public class Task {
     public int[] getDate(){
         return date;
     }
+    public void setId( long id ){
+        this.id = id;
+    }
+    public long getId(){
+        return this.id;
+    }
+
 
 }

@@ -72,6 +72,8 @@ public class AddTask extends AppCompatActivity {
             if (result == -1){
                 showToast("Failed to save the task");
                 return;
+            } else{
+                newTask.setId(result);
             }
 
             showToast("Successfully added the task");

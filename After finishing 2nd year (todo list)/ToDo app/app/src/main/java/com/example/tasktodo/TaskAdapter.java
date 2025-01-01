@@ -33,6 +33,10 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         Task task = tasks.get(position);
 
+        if (longClickListener != null) {
+            holder.itemView.setOnLongClickListener(longClickListener);
+        }
+
         holder.title.setText(task.getTitle());
         holder.priority.setText("Priority: " + String.valueOf(task.getPriority()));
 
@@ -91,6 +95,8 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
             date = taskView.findViewById(R.id.DateTask);
 
         }
+
+
     }
 
 
