@@ -7,6 +7,7 @@ public class Task {
     private int priority;
     private String title;
     private long id;
+    private int position;
 
     public Task(String title, int[] data, int priority){
         this.priority = priority;
@@ -38,6 +39,7 @@ public class Task {
     public long getId(){
         return this.id;
     }
+
 
 
 }

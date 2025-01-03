@@ -45,7 +45,49 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
             throw new IllegalArgumentException("Expected array of length 3, but got " + date.length);
         }
 
-        String toPrint = String.valueOf(date[1]) + "." + String.valueOf(date[2]) + ", " + String.valueOf(date[0]);
+        String monthWord = "";
+
+        switch (date[1]) {
+            case 1:
+                monthWord = "January";
+                break;
+            case 2:
+                monthWord = "February";
+                break;
+            case 3:
+                monthWord = "March";
+                break;
+            case 4:
+                monthWord = "April";
+                break;
+            case 5:
+                monthWord = "May";
+                break;
+            case 6:
+                monthWord = "June";
+                break;
+            case 7:
+                monthWord = "July";
+                break;
+            case 8:
+                monthWord = "August";
+                break;
+            case 9:
+                monthWord = "September";
+                break;
+            case 10:
+                monthWord = "October";
+                break;
+            case 11:
+                monthWord = "November";
+                break;
+            case 12:
+                monthWord = "December";
+                break;
+        }
+
+
+        String toPrint = monthWord + "  " + String.valueOf(date[2]) + ", " + String.valueOf(date[0]);
         holder.date.setText(toPrint);
 
         int year = date[0];

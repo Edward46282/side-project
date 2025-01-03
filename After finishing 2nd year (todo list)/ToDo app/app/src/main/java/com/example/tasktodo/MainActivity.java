@@ -53,8 +53,6 @@ public class MainActivity extends AppCompatActivity {
                 });
 
         taskView.setLongClickable(true);
-
-
     }
 
     private void fetchData(){
@@ -87,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 db.deleteTask(id);
+                adapterTask.notifyDataSetChanged();
             }
         });
 
@@ -136,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
     public void addTask(){
         Intent intent = new Intent(MainActivity.this, AddTask.class);
         startActivity(intent);
-        adapterTask.notifyItemInserted(tasks.size()-1);
+        //adapterTask.notifyItemInserted(tasks.size()-1);
     }
 
     @Override

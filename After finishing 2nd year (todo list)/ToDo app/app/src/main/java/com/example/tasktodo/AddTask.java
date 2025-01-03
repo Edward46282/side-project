@@ -1,5 +1,6 @@
 package com.example.tasktodo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.CalendarView;
@@ -78,6 +79,10 @@ public class AddTask extends AppCompatActivity {
 
             showToast("Successfully added the task");
             //thinking whether to go back to main or not
+            //add intent to main activity and put extra to update the lists in the main activity
+
+            Intent intent = new Intent(AddTask.this, MainActivity.class);
+            startActivity(intent);
         });
     }
     private boolean isValid(String name, int priority){

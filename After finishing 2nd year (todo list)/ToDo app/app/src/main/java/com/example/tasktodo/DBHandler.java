@@ -155,6 +155,8 @@ public class DBHandler extends SQLiteOpenHelper {
             }
         }
 
+        arrDate[counter] = Integer.parseInt(accumulate.toString());
+
         Task tmpTask = new Task(title, arrDate, priority);
         tmpTask.setId(id);
 
