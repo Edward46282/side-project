@@ -6,6 +6,7 @@ import android.os.PersistableBundle;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.Nullable;
@@ -22,7 +23,7 @@ public class EditTask extends AppCompatActivity {
     Button editButton;
 
     @Override
-    public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
+    public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.editdialogue);
@@ -31,11 +32,13 @@ public class EditTask extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        DBHandler db = new DBHandler(this);
 
         Intent intent = getIntent();
         long id = intent.getLongExtra("TASK_ID", -1);
         String title = intent.getStringExtra("TASK_TITLE");
         int priority = intent.getIntExtra("TASK_PRI", -1);
+        int[] date = intent.getIntArrayExtra("TASK_DATE");
 
         taskTitle = findViewById(R.id.TitleTask);
         taskPriority = findViewById(R.id.editPriorityNum);
@@ -49,6 +52,38 @@ public class EditTask extends AppCompatActivity {
         taskTitle.setText(title);
         taskPriority.setText(String.valueOf(priority));
 
+        backButton = findViewById(R.id.Backbutton);
+        editButton = findViewById(R.id.EditButton);
 
+        backButton.setOnClickListener(V->{
+            Intent intent1 = new Intent(EditTask.this, MainActivity.class);
+            startActivity(intent1);
+        });
+
+        editButton.setOnClickListener(V->{
+            String titleEdited = taskTitle.getText().toString().trim();
+            String tmpPriority = taskPriority.getText().toString().trim();
+
+            int priorityEdited = Integer.parseInt(tmpPriority);
+
+            if(!(isValid(titleEdited, priorityEdited))){
+                Toast.makeText(this, "Invalid input",
+                        Toast.LENGTH_LONG).show();
+                return;
+            } else{
+                Task newTask = new Task(titleEdited,date,priorityEdited);
+                db.updateTask(id, newTask);
+            }
+        });
+
+
+    }
+
+
+    private boolean isValid(String name, int priority){
+        if (!(name.isBlank()) &&((priority < 11) && (priority > 0))){
+            return true;
+        }
+        return false;
     }
 }

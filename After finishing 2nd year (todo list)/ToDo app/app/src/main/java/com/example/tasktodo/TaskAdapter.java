@@ -97,10 +97,10 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.ViewHolder> {
         long calculatedDay = calculateDayDifference(year, month, day);
 
         if(calculatedDay > 0){
-            String tmp = " D- " + calculatedDay;
+            String tmp = " D - " + calculatedDay;
             holder.dMinus.setText(tmp);
         } else if (calculatedDay < 0 ){
-            String tmp = " D+ " + Math.abs(calculatedDay);
+            String tmp = " D + " + Math.abs(calculatedDay);
             holder.dMinus.setText(tmp);
         } else{
             holder.dMinus.setText("Today");
