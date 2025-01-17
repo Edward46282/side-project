@@ -73,7 +73,10 @@ public class EditTask extends AppCompatActivity {
             } else{
                 Task newTask = new Task(titleEdited,date,priorityEdited);
                 db.updateTask(id, newTask);
+                Intent intents = new Intent(EditTask.this, MainActivity.class);
+                startActivity(intents);
             }
+
         });
 
 

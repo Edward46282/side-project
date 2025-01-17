@@ -112,8 +112,8 @@ public class DBHandler extends SQLiteOpenHelper {
         // Query the database
         Cursor cursor = db.query(
                 TABLE_TASKS,           // Table name
-                null,                  // Columns (null = all columns)
-                null,                  // Selection (null = no WHERE clause)
+                null,                  // Columns
+                null,                  // Selection
                 null,                  // Selection arguments
                 null,                  // Group by
                 null,                  // Having
@@ -125,13 +125,13 @@ public class DBHandler extends SQLiteOpenHelper {
             do {
                 // Use getTaskFromCursor to convert each row into a Task object
                 Task task = getTaskFromCursor(cursor);
-                taskList.add(task); // Add the Task to the list
+                taskList.add(task);
             } while (cursor.moveToNext());
 
-            cursor.close(); // Close the cursor
+            cursor.close();
         }
 
-        db.close(); // Close the database
+        db.close();
         return taskList;
     }
 

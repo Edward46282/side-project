@@ -50,16 +50,10 @@ public class AddTask extends AppCompatActivity {
         listenForDate();
 
         addTask.setOnClickListener(V -> {
-            /*
-            String value= getDate.getText().toString();
-            int finalValue = Integer.parseInt(value);
-            */
             title = getName.getText().toString().trim();
 
             String tmpPriority = getPriority.getText().toString();
             priority = Integer.parseInt(tmpPriority);
-
-            //listenForDate();
 
             if (!isValid(title, priority)) {
                 showToast("invalid input");
@@ -78,8 +72,6 @@ public class AddTask extends AppCompatActivity {
             }
 
             showToast("Successfully added the task");
-            //thinking whether to go back to main or not
-            //add intent to main activity and put extra to update the lists in the main activity
 
             Intent intent = new Intent(AddTask.this, MainActivity.class);
             startActivity(intent);

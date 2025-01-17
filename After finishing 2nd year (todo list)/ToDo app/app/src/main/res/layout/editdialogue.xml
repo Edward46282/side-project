@@ -9,13 +9,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="19dp">
 
         <TextView
             android:id="@+id/EditingTaskHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Editing/Deleting Task" />
+            android:layout_gravity="center"
+            android:text="Editing/Deleting Task"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/TitleTask"
@@ -31,11 +35,16 @@
             android:ems="10"
             android:inputType="number" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="19dp" />
+
         <TextView
             android:id="@+id/changeDateInstruction"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/TaskDateInstruction" />
+            android:text="@string/TaskDateInstruction"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -47,7 +56,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Back" />
+                android:backgroundTint="#FF0000"
+                android:text="Back"
+                app:cornerRadius="8dp" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -59,7 +70,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Edit" />
+                android:backgroundTint="#7CB342"
+                android:text="Edit"
+                app:cornerRadius="8dp" />
         </LinearLayout>
 
     </LinearLayout>

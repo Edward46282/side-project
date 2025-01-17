@@ -10,7 +10,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <Space
             android:layout_width="match_parent"
@@ -89,6 +90,8 @@
             android:id="@+id/addButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Add" />
+            android:backgroundTint="#00897B"
+            android:text="Add"
+            app:cornerRadius="9dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
