@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav-->
+      <div class="navbar">
+        <div class="nav-center">
+          <!-- header -->
+           <div class="nav-header">
+            <a href="index.html" class="nav-logo">
+              <img src="./assets/logo.svg" alt="simply recipes">
+            </a>
+            <button type="button" class="btn nav-btn">
+              <i class="fas fa-align-justify"></i>
+            </button>
+           </div>
+           <!-- links -->
+           <div class="nav-links">
+              <a href="index.html" class="nav-link">home</a> 
+              <a href="about.html" class="nav-link">about</a> 
+              <a href="tags.html" class="nav-link">tags</a> 
+              <a href="recipes.html" class="nav-link">recipes</a> 
+              <div class="nav-link contact-link">
+                <a href="contact.html" class="btn">contact</a>
+              </div>
+           </div>
+        </div>
+      </div>
+      <!--end of nav-->
+      <!-- main-->
+        <main class="page">
+          <section class="contact-container">
+            <article class ="contact-info">
+              <h3>Want To Get In Touch?</h3>
+              <p>
+                Four dollar toast biodisel plaid saliva actually pickled banjo bespoke
+                mlkshk intelligentsia edison bulb synth.
+              </p>
+              <p>Cardigen prism bicycle rights put a bird on it deep v.</p>
+              <p>Hashtag swag health goth air plant, reclette listicle fingerstache cold-pressed funny
+                pack bicycle rights cardigen poke.
+              </p>
+            </article>
+            <article>
+              <form class="form contact-form">
+                <!-- single form row-->
+                <div class="form-row">
+                  <label for="name" class="form-label">Your name</label>
+                  <input type="text" name="name" id="name" class="form-input"> <!-- id will be only used in html and css unlike name value-->
+                </div>
+                <!-- end of single row-->
+                 <!-- single form row-->
+                <div class="form-row">
+                  <label for="email" class="form-label">Your email</label>
+                  <input type="text" name="email" id="email" class="form-input"> <!-- name value is an identifier used when sending the value to the server side -->
+                </div>
+                <!-- end of single row-->
+                 <div class="form-row">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea name="message" id="message" class="form-textarea"></textarea>
+                 </div>
+                 <button type="submit" class="btn btn-block">submit</button>
+              </form>
+            </article>
+          </section>
+          <section class="about-page">
+            <article>
+              <h2>I'm baby cooloring book poke taxidermy</h2>
+              <p>Taxidermy forage glossier letterpress heirloom before they sold out you
+                probably haven't heard of them banh mi biodiesel chia.
+              </p>
+              <p>Taiyaki tumblr flexiterian jean shorts brunch, aesthetic salvia retro.</p>
+              <a href="contact.html" class="btn">contact</a>
+            </article>
+            <img src="./assets/about.jpeg" alt="pouring salt" class="img about-img" />
+          </section>
+          <section class="featured-recipes">
+            <h5 class="featured-title">Look At this Awesomesouce!</h5>
+            <!-- recipes conatiner-->
+             <div class="recipes-list">
+              <!-- single recipe -->
+              <a href="single-recipe.html" class="recipe">
+                <img src="./assets/recipes/recipe-1.jpeg" alt="food" 
+                class="img recipe-img" />
+                <h5>carne asada</h5>
+                <p>Prep : 15min | Cook: 5 mins</p></a>
+              <!-- end of single recipe -->
+              <!-- single recipe -->
+              <a href="single-recipe.html" class="recipe">
+                <img src="./assets/recipes/recipe-2.jpeg" alt="food" 
+                class="img recipe-img" />
+                <h5>greek ribs</h5>
+                <p>Prep : 15min | Cook: 5 mins</p></a>
+              <!-- end of single recipe -->
+              <!-- single recipe -->
+              <a href="single-recipe.html" class="recipe">
+                <img src="./assets/recipes/recipe-3.jpeg" alt="food" 
+                class="img recipe-img" />
+                <h5>vegetable soup</h5>
+                <p>Prep : 15min | Cook: 5 mins</p></a>
+              <!-- end of single recipe -->
+             </div>
+            <!-- end of recipes container--> 
+          </section>
+        </main>
+      <!-- end of main-->
+      <!-- footer-->
+      <div class="page-footer">
+        <p>&copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span>
+        Built by <a href="Google.com">Coding google</a>
+        </p> </div>
+      <!-- end of footer-->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
