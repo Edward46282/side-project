@@ -1,34 +1,47 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import myVideo from './assets/editedVideo.mp4'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="main-container">
+      <div className="content-wrapper">
+        {/* Split Content Area */}
+        <div className="split-view">
+          {/* Left Side: Blue Box */}
+          <div className="left-half">
+            <div className="blue-box">
+              <h1>Edward Eo</h1>
+              <p>info to come</p>
+            </div>
+          </div>
+
+          {/* Right Side: Video */}
+          <div className="right-half">
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              width="100%"
+            >
+              <source src={myVideo} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div className="gradient-spacer"></div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+      {/* 2. The Right-Side Navbar */}
+      <nav className="side-nav">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </div>
   )
 }
 
