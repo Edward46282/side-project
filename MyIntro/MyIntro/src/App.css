@@ -11,6 +11,13 @@
   background-color: #6CCBFF;
 }
 
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-size: 20px;
+}
+
 /* Left Half Styling */
 .left-half {
   flex: 1;
@@ -19,7 +26,7 @@
   justify-content: center;
 }
 
-.blue-box {
+.black-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,11 +40,21 @@
   text-align: center;
 }
 
+/* Decorative line under the name */
+.lineTag {
+  width: 60%;
+  height: 4px;
+  background-color: var(--accent-color);
+  margin: 20px 0;
+  border-radius: 2px;
+}
+
 /* Right Half Styling */
 .right-half {
   flex: 1;
 }
 
+/* Gradient Spacer under the content*/
 .gradient-spacer { 
   height: 50px;
   width: 100%;
@@ -49,6 +66,7 @@
   width: 150px;
   height: 100vh;
   position: sticky;
+  top: 0;
   background-color: #333;
   color: white;
   display: flex;
@@ -57,6 +75,34 @@
   border-left: 2px solid #444;
 }
 
+.education-container {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.education-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.uniPhoto, .uniDescription {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description-linespacer {
+  height: 50px;
+}
+
+.uniFlag {
+  width: 50%;
+  border-radius: 12px;
+  height: auto;
+  margin-top: 10px;
+}
 .side-nav ul {
   list-style: none;
   padding: 0;
@@ -70,4 +116,55 @@
 
 .side-nav li:hover {
   color: #007bff;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  perspective: 1000px; /* Essential for 3D tilting */
+}
+
+.card-stack {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+/* The Active Image */
+.main-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  animation: slideIn 0.5s ease-out;
+}
+
+/* The Tilted Background Image */
+.next-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -60px; /* Push it to the right */
+  top: 10px;
+  z-index: 1;
+  opacity: 0.4; 
+  border-radius: 15px;
+  transform: rotateY(-25deg) scale(0.9); 
+}
+
+.nav-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:active {
+  transform: translateY(2px); 
 }

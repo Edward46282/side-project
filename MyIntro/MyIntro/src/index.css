@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* 1. Global Reset: Removes default browser gaps and margins */
+/* Global Reset: Removes default browser gaps and margins */
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +10,10 @@
 :root {
   scroll-behavior: smooth;
   --accent-blue: #000000;
+  --accent-color: #007bff;
 }
 
-/* 2. Base Page Setup */
+/* Base Page Setup */
 body {
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background-color: #f0f0f0;
@@ -23,8 +24,19 @@ body {
   overflow-x: hidden;
 }
 
-/* 3. Link Styling (Optional but helpful) */
+/* Link Styling (Optional but helpful) */
 a {
   text-decoration: none;
   color: inherit;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(40px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
 }
