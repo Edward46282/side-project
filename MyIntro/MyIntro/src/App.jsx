@@ -4,12 +4,14 @@ import uniCampus from './assets/uottawa-campus.jpg'
 import uniStem from './assets/uottawa-STEM.jpg'
 import './App.css'
 import { useState, useEffect } from 'react';
+import SkillsCarousel from './SkillsCarousel'
 
 const images = [
   uniCampus, uniFlag, uniStem
 ];
 
-
+const projects = [
+  {id: 1, title: "Messaging Program", desc: "Description 1"}, {id: 2, title: "Todo Android app", desc: "Description 2"}]
 function App() {
   return (
     <div className="main-container">
@@ -41,7 +43,9 @@ function App() {
         </div>
         <div className="gradient-spacer"></div>
         <div className="education-container">
-          <h1 style={{ fontStyle: 'italic' }}>&emsp;&emsp;Education</h1>
+          <div className="section-title">
+            <h1 style={{ fontStyle: 'italic' }}>Education</h1>
+          </div>
           <div className= "education-content">
             <div className = "uniPhoto">
               <ImageCard />
@@ -55,13 +59,24 @@ function App() {
           </div>
         </div>
         
+        <section className="skills-container">
+          <SkillsCarousel />
+        </section>
+
+        <section className="projects-container">
+          <div className="section-title">
+            <h1 style={{ fontStyle: 'italic' }}>Projects</h1>
+          </div>
+          <ProjectCard />
+        </section>
       </div>
 
       {/* 2. The Right-Side Navbar */}
       <nav className="side-nav">
         <ul>
-          <li>Home</li>
-          <li>About</li>
+          <li>Main screen</li>
+          <li>Education</li>
+          <li>Skills</li>
           <li>Projects</li>
           <li>Contact</li>
         </ul>
@@ -97,6 +112,19 @@ function ImageCard() {
       </div>
       
       <button onClick={nextImage} className="nav-button">Next Image</button>
+    </div>
+  );
+}
+
+function ProjectCard() {
+  return (
+    <div className = "project-Card-Container">
+      {projects.map((project) => (
+        <div key={project.id} className="project-card">
+          <h3>{project.title}</h3>
+          <p>{project.desc}</p>
+        </div>
+      ))}
     </div>
   );
 }

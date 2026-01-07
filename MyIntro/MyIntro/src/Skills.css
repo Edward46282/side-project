@@ -1,0 +1,62 @@
+.skills-section {
+  position: relative;
+  height: 250vh; /* 2x the screen height = longer scroll time */
+  background-color: #171717;
+  width: 100%;
+}
+
+.skills-title {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+/* The viewport-sized container that stays fixed while scrolling */
+.sticky-wrapper {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden; /* Hides the off-screen card */
+}
+
+/* The moving row of cards */
+.cards-container {
+  display: flex;
+  gap: 40px;
+  padding: 0 50px;
+}
+
+/* Individual Skill Card */
+.skill-card {
+  flex-shrink: 0; /* Prevents cards from squishing */
+  width: 350px;
+  height: 450px;
+  background-color: #262626;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #404040;
+  transition: border-color 0.3s ease;
+}
+
+.skill-card:hover {
+  border-color: #06b6d4;
+}
+
+.skill-card h3 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  color: #a3a3a3;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
