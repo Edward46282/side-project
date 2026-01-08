@@ -12,12 +12,13 @@ const images = [
 
 const projects = [
   {id: 1, title: "Messaging Program", desc: "Description 1"}, {id: 2, title: "Todo Android app", desc: "Description 2"}]
-function App() {
+
+  function App() {
   return (
     <div className="main-container">
       <div className="content-wrapper">
         {/* Split Content Area */}
-        <div className="split-view">
+        <div id="mainScreen" className="split-view">
           {/* Left Side: Blue Box */}
           <div className="left-half">
             <div className="black-box">
@@ -42,7 +43,7 @@ function App() {
           </div>
         </div>
         <div className="gradient-spacer"></div>
-        <div className="education-container">
+        <div id="education" className="education-container">
           <div className="section-title">
             <h1 style={{ fontStyle: 'italic' }}>Education</h1>
           </div>
@@ -59,26 +60,39 @@ function App() {
           </div>
         </div>
         
-        <section className="skills-container">
+        <section id="skills" className="skills-container">
           <SkillsCarousel />
         </section>
 
-        <section className="projects-container">
+        <section id="projects" className="projects-container">
           <div className="section-title">
             <h1 style={{ fontStyle: 'italic' }}>Projects</h1>
           </div>
           <ProjectCard />
         </section>
+
+        <footer id="contact" className="footer">
+          <p>This is the website to introduce me, Edward! (‾◡◝)</p>
+          <a href="https://www.instagram.com/edward99929/" target="_blank">
+            <i class="fa-brands fa-instagram" aria-label="Instagram logo"></i>
+          </a>
+          <a href="https://github.com/Edward46282" target="_blank">
+            <i class="fa-brands fa-github" aria-label="Github logo"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/edward-eo-74068b2b5/" target="_blank">
+            <i class="fa-brands fa-linkedin" aria-label="Linkedin logo"></i>
+          </a>
+        </footer>
       </div>
 
-      {/* 2. The Right-Side Navbar */}
+      {/* The Right-Side Navbar */}
       <nav className="side-nav">
         <ul>
-          <li>Main screen</li>
-          <li>Education</li>
-          <li>Skills</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li><a href="#mainScreen">Main Screen</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>

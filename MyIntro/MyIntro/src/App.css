@@ -209,29 +209,79 @@ button:active {
 }
 
 .project-card {
-  background-color: #262626;
+  background-color: rgb(44, 141, 245);
+  position: relative;
   border-radius: 15px;
   padding: 30px;
-  border: 1px solid #444;
+  border: 2px solid #444;
   width: 15vw;
   height: 25vh;
   margin: 20px;
+  z-index: 1;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hidden layer behind card*/
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(145deg, rgba(44, 141, 245, 1) 42%, 
+              rgba(87, 199, 133, 1) 86%, rgba(237, 221, 83, 1) 100%);
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+  z-index: -1;
+  border-radius: inherit; /* Matches the card corners */
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+/* Fade in the gradient layer on hover */
+.project-card:hover::before {
+  opacity: 1;
 }
 
 .project-Card-Container {
   display: grid;
   width: 100%;
-  /* This creates 2 columns of equal width */
   grid-template-columns: repeat(auto-fill, 15vw);
-  /* Space between cards */
   gap: 30px; 
-  /* Space around the whole grid */
   padding: 50px;
-  /* Use 'width: auto' so it respects your 150px sidebar */
   justify-content: center;
 }
+
 .project-card h3, p {
   text-align: center;
   color: white;
   margin-bottom: 15px;
+}
+
+.footer {
+  background-color: #333;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer a {
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--accent-color);
+  transform: scale(1.2);
+}
+
+.footer p {
+  margin-right: 30px;
 }
