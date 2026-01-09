@@ -3,10 +3,10 @@ import { motion, useTransform, useScroll } from "framer-motion";
 import "./Skills.css";
 
 const SKILLS = [
-  { id: 1, title: "Code in well-known programming language like Python and Java", desc: "Expert in hooks, context, and performance." },
-  { id: 2, title: "Data structure", desc: "Scalable backend architecture and APIs." },
-  { id: 3, title: "Web development", desc: "Creating fluid, 60fps web animations." },
-  { id: 4, title: "Networking", desc: "Writing type-safe, maintainable code." },
+  { id: 1, title: "Code in well-known programming language like Python and Java", desc: "Able to code complex problems in Python, Java, JavaScript, and more!" },
+  { id: 2, title: "Data structure", desc: "Proficient in designing and implementing high-performance data structures and algorithms. Strong fundamentals in BST, Heaps, DFS, etc." },
+  { id: 3, title: "Web development", desc: "Able to use React, HTML, CSS, and JavaScript to develop a website." },
+  { id: 4, title: "Networking", desc: "Strong fundamentals in networking concepts, like the OSI model, through side projects and coursework. " },
 ];
 
 const SkillsCarousel = () => {

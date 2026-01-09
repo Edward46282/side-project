@@ -50,6 +50,11 @@
   font-size: large;
 }
 
+.italic-text {
+  font-style: italic;
+  font-size: large;
+}
+
 .social-links {
   margin-top: 20px;
   display: flex;
@@ -136,14 +141,21 @@
   flex-direction: column;
   align-items: center;
   transition: color 0.3s ease;
+  margin: 10px 10px;
 }
 
 .uniDescription h2:hover{
   color: rgb(145, 0, 0);
 }
 
+.uniDescription p {
+  color: black;
+  padding: 0 20px;
+  text-align: left;
+}
+
 .description-linespacer {
-  height: 50px;
+  height: 15px;
 }
 
 .uniFlag {

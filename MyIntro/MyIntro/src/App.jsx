@@ -72,7 +72,19 @@ const projects = [
               <h3>Computer Science Student At</h3>
               <h2> University of Ottawa (2023~ )</h2>
               <div className="description-linespacer"></div>
-              <p>Description coming</p>
+              <p>
+                <span className="highlight-bold">RELEVANT COURSEWORK & EXPERIENCE</span><br />
+                <span className="italic-text">[ TECHNICAL FOUNDATION ]</span><br />
+                  • Software Engineering: Intro to Software Engineering, Software Requirements, Database I<br />
+                  • Systems & Theory: Data Structures & Algorithms, Computer Architecture I<br />
+                  • Mathematics: Calculus II<br />
+                  <br />
+                  <span className="italic-text">[ LEADERSHIP & INVOLVEMENT ]</span><br />
+                  • Executive Board Member | Korean Student Association<br />
+                    - Manage event operations and community engagement.<br />
+                  • Active Member | Computer Science Club<br />
+                    • Active Member | Badminton Club & Board Game Club<br />
+                    </p>
             </div>
           </div>
         </div>
@@ -118,11 +130,12 @@ const projects = [
 }
 
 function ImageCard() {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0); // index holds current value (0 at start) and setIndex is a function
+  // called when value needs to be changed
 
   // Arrow function to go to next image
   const nextImage = () => {
-    setIndex((prev) => (prev + 1) % images.length); // no-name function that takes prev index as a parameter
+    setIndex((prev) => (prev + 1) % images.length); // setIndex takes an arrow function that takes prev as a parameter (autofilled with current index value)
   };
 
   // Timer: Change every 15 seconds
