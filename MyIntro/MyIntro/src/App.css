@@ -45,6 +45,28 @@
   text-align: center;
 }
 
+.highlight-bold {
+  font-weight: bold;
+  font-size: large;
+}
+
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.black-box a {
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.black-box a:hover {
+  color: var(--accent-color);
+  transform: scale(1.2);
+}
+
 /* Decorative line under the name */
 .lineTag {
   width: 60%;
@@ -113,6 +135,11 @@
   flex: 1;
   flex-direction: column;
   align-items: center;
+  transition: color 0.3s ease;
+}
+
+.uniDescription h2:hover{
+  color: rgb(145, 0, 0);
 }
 
 .description-linespacer {
@@ -222,9 +249,9 @@ button:active {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hidden layer behind card*/
+/* Hidden layer behind the contents of the card*/
 .project-card::before {
-  content: "";
+  content: ""; /* to show that the system should render something */
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   background: linear-gradient(145deg, rgba(44, 141, 245, 1) 42%, 

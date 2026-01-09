@@ -10,8 +10,11 @@ const images = [
   uniCampus, uniFlag, uniStem
 ];
 
+const age = new Date().getFullYear() - 2005;
+
 const projects = [
-  {id: 1, title: "Messaging Program", desc: "Description 1"}, {id: 2, title: "Todo Android app", desc: "Description 2"}]
+  {id: 1, title: "Messaging Program", desc: "Description 1", address: "https://github.com/Edward46282/side-project/tree/main/In%20third%20year%20(network)"},
+   {id: 2, title: "Todo Android app", desc: "Description 2", address: "https://github.com/Edward46282/side-project/tree/main/After%20finishing%202nd%20year%20(todo%20list)/ToDo%20app"}]
 
   function App() {
   return (
@@ -24,7 +27,21 @@ const projects = [
             <div className="black-box">
               <h1>Edward Eo</h1>
               <div className="lineTag"></div>
-              <p>info to come</p>
+              <p><span className="highlight-bold">Born:</span> 2005
+                <br /><span className="highlight-bold">Age:</span> {age} years old 
+                <br /><span className="highlight-bold">Things I like to do:</span> watch baseball, play video games, watch movies
+              </p>
+              <div className="social-links">
+                <a href="https://www.instagram.com/edward99929/" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-instagram" aria-label="Instagram logo"></i>
+                </a>
+                <a href="https://github.com/Edward46282" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-github" aria-label="Github logo"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/edward-eo-74068b2b5/" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-linkedin" aria-label="Linkedin logo"></i>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -53,7 +70,7 @@ const projects = [
             </div>
             <div className = "uniDescription">
               <h3>Computer Science Student At</h3>
-              <h2> University of Ottawa</h2>
+              <h2> University of Ottawa (2023~ )</h2>
               <div className="description-linespacer"></div>
               <p>Description coming</p>
             </div>
@@ -73,13 +90,14 @@ const projects = [
 
         <footer id="contact" className="footer">
           <p>This is the website to introduce me, Edward! (‾◡◝)</p>
-          <a href="https://www.instagram.com/edward99929/" target="_blank">
+          <p>Email: eoedward7353@gmail.com</p>
+          <a href="https://www.instagram.com/edward99929/" target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-instagram" aria-label="Instagram logo"></i>
           </a>
-          <a href="https://github.com/Edward46282" target="_blank">
+          <a href="https://github.com/Edward46282" target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-github" aria-label="Github logo"></i>
           </a>
-          <a href="https://www.linkedin.com/in/edward-eo-74068b2b5/" target="_blank">
+          <a href="https://www.linkedin.com/in/edward-eo-74068b2b5/" target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-linkedin" aria-label="Linkedin logo"></i>
           </a>
         </footer>
@@ -135,8 +153,10 @@ function ProjectCard() {
     <div className = "project-Card-Container">
       {projects.map((project) => (
         <div key={project.id} className="project-card">
-          <h3>{project.title}</h3>
-          <p>{project.desc}</p>
+          <a href={project.address} target="_blank" rel="noopener noreferrer">
+            <h3>{project.title}</h3>
+            <p>{project.desc}</p>
+          </a>
         </div>
       ))}
     </div>
