@@ -13,8 +13,8 @@ const images = [
 const age = new Date().getFullYear() - 2005;
 
 const projects = [
-  {id: 1, title: "Messaging Program", desc: "Description 1", address: "https://github.com/Edward46282/side-project/tree/main/In%20third%20year%20(network)"},
-   {id: 2, title: "Todo Android app", desc: "Description 2", address: "https://github.com/Edward46282/side-project/tree/main/After%20finishing%202nd%20year%20(todo%20list)/ToDo%20app"}]
+  {id: 1, title: "Messaging Program", desc: "Developed a multi-threaded Client-Server architecture using Java Sockets (java.net) to enable real-time, bidirectional communication.", address: "https://github.com/Edward46282/side-project/tree/main/In%20third%20year%20(network)"},
+   {id: 2, title: "Todo Android app", desc: "Developed an Android application using Android Studio and Java to streamline personal task management.\nIntegrated firebase to store user data", address: "https://github.com/Edward46282/side-project/tree/main/After%20finishing%202nd%20year%20(todo%20list)/ToDo%20app"}]
 
   function App() {
   return (

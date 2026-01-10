@@ -254,7 +254,7 @@ button:active {
   padding: 30px;
   border: 2px solid #444;
   width: 15vw;
-  height: 25vh;
+  height: fit-content;
   margin: 20px;
   z-index: 1;
   cursor: pointer;
@@ -293,10 +293,15 @@ button:active {
   justify-content: center;
 }
 
-.project-card h3, p {
+.project-card h3 {
   text-align: center;
   color: white;
   margin-bottom: 15px;
+}
+
+.project-card p {
+  color: white;
+  text-align: left;
 }
 
 .footer {
