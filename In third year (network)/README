@@ -1,0 +1,7 @@
+Developed a multi-threaded Client-Server architecture using Java Sockets (java.net) to enable real-time, bidirectional communication.
+
+Engineered a Client Handler to manage simultaneous connections concurrently through multi-threading and stream synchronization.
+
+Implemented robust data handling using InputStream and OutputStream for reliable message exchange over specific TCP ports.
+
+Optimized network performance by managing socket lifecycles, port binding, and exception handling to ensure system stability.
