@@ -1,6 +1,6 @@
 .skills-section {
   position: relative;
-  height: 250vh; /* 2x the screen height = longer scroll time */
+  height: 250vh; /* 2.5x the screen height = longer scroll time */
   background-color: #171717;
   width: 100%;
 }
@@ -59,4 +59,10 @@
   color: #a3a3a3;
   font-size: 1.1rem;
   line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .skills-section {
+    height: 300vh;
+  }
 }

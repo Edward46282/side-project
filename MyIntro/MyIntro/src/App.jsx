@@ -33,13 +33,13 @@ const projects = [
               </p>
               <div className="social-links">
                 <a href="https://www.instagram.com/edward99929/" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-instagram" aria-label="Instagram logo"></i>
+                  <i className="fa-brands fa-instagram" aria-label="Instagram logo"></i>
                 </a>
                 <a href="https://github.com/Edward46282" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-github" aria-label="Github logo"></i>
+                  <i className="fa-brands fa-github" aria-label="Github logo"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/edward-eo-74068b2b5/" target="_blank" rel="noopener noreferrer">
-                  <i class="fa-brands fa-linkedin" aria-label="Linkedin logo"></i>
+                  <i className="fa-brands fa-linkedin" aria-label="Linkedin logo"></i>
                 </a>
               </div>
             </div>
@@ -103,15 +103,17 @@ const projects = [
         <footer id="contact" className="footer">
           <p>This is the website to introduce me, Edward! (‾◡◝)</p>
           <p>Email: eoedward7353@gmail.com</p>
-          <a href="https://www.instagram.com/edward99929/" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-instagram" aria-label="Instagram logo"></i>
+          <div className="footer-links">
+            <a href="https://www.instagram.com/edward99929/" target="_blank" rel="noopener noreferrer">
+            <i className="fa-brands fa-instagram" aria-label="Instagram logo"></i>
           </a>
           <a href="https://github.com/Edward46282" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-github" aria-label="Github logo"></i>
+            <i className="fa-brands fa-github" aria-label="Github logo"></i>
           </a>
           <a href="https://www.linkedin.com/in/edward-eo-74068b2b5/" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-linkedin" aria-label="Linkedin logo"></i>
+            <i className="fa-brands fa-linkedin" aria-label="Linkedin logo"></i>
           </a>
+          </div>
         </footer>
       </div>
 

@@ -17,9 +17,11 @@ const SkillsCarousel = () => {
     target: targetRef,
   });
 
+  const isMobile = window.innerWidth <= 600;
+  const targetX = isMobile ? ["0","-95%"] : ["0", "-35%"]; // -90 for mobile, -35 for desktop
   // Map scroll progress 0=top, 1=past the section -> horizontal movement (0 to -30%)
   // -70% move the cards to the left as you scroll down.
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-30%"]);
+  const x = useTransform(scrollYProgress, [0, 1], targetX);
 
   return (
     <section ref={targetRef} className="skills-section">
