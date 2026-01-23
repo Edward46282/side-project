@@ -76,8 +76,8 @@ const projects = [
                 <span className="highlight-bold">RELEVANT COURSEWORK & EXPERIENCE</span><br />
                 <span className="italic-text">[ TECHNICAL FOUNDATION ]</span><br />
                   • Software Engineering: Intro to Software Engineering, Software Requirements, Database I<br />
-                  • Systems & Theory: Data Structures & Algorithms, Computer Architecture I<br />
-                  • Mathematics: Calculus II<br />
+                  • Systems & Theory: Networking & Communication, Data Structures & Algorithms, Computer Architecture I<br />
+                  • Mathematics: Calculus II, Probability and Stats<br />
                   <br />
                   <span className="italic-text">[ LEADERSHIP & INVOLVEMENT ]</span><br />
                   • Executive Board Member | Korean Student Association<br />
