@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
 import "./Skills.css";
 
@@ -11,13 +11,15 @@ const SKILLS = [
 
 const SkillsCarousel = () => {
   const targetRef = useRef(null);
-  
-  // Hook into the vertical scroll of the targetRef
-  const { scrollYProgress } = useScroll({
-    target: targetRef,
-  });
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
 
-  const isMobile = window.innerWidth <= 600;
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 600);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  const { scrollYProgress } = useScroll({ target: targetRef });
   const targetX = isMobile ? ["0","-95%"] : ["0", "-45%"]; // -95 for mobile, -45 for desktop
   // Map scroll progress 0=top, 1=past the section -> horizontal movement (0 to -30%)
   // -70% move the cards to the left as you scroll down.

@@ -60,34 +60,36 @@ const projects = [
           </div>
         </div>
         <div className="gradient-spacer"></div>
-        <div id="education" className="education-container">
+
+        <section id="education" className="education-container">
           <div className="section-title">
-            <h1 style={{ fontStyle: 'italic' }}>Education</h1>
+            <h1 className="title-italic">Education</h1>
           </div>
-          <div className= "education-content">
-            <div className = "uniPhoto">
+          <div className="education-content">
+            <div className="uniPhoto">
               <ImageCard />
             </div>
-            <div className = "uniDescription">
+            <div className="uniDescription">
               <h3>Computer Science Student At</h3>
-              <h2> University of Ottawa (2023~ )</h2>
+              <h2>University of Ottawa (2023~ )</h2>
               <div className="description-linespacer"></div>
               <p>
                 <span className="highlight-bold">RELEVANT COURSEWORK & EXPERIENCE</span><br />
                 <span className="italic-text">[ TECHNICAL FOUNDATION ]</span><br />
-                  • Software Engineering: Intro to Software Engineering, Software Requirements, Database I<br />
-                  • Systems & Theory: Networking & Communication, Data Structures & Algorithms, Computer Architecture I<br />
-                  • Mathematics: Calculus II, Probability and Stats<br />
-                  <br />
-                  <span className="italic-text">[ LEADERSHIP & INVOLVEMENT ]</span><br />
-                  • Executive Board Member | Korean Student Association<br />
-                    - Manage event operations and community engagement.<br />
-                  • Active Member | Computer Science Club<br />
-                    • Active Member | Badminton Club & Board Game Club<br />
-                    </p>
+                • Software Engineering: Intro to Software Engineering, Software Requirements, Database I<br />
+                • Systems & Theory: Networking & Communication, Data Structures & Algorithms, Computer Architecture I<br />
+                • Mathematics: Calculus II, Probability and Stats<br />
+                <br />
+                <span className="italic-text">[ LEADERSHIP & INVOLVEMENT ]</span><br />
+                • Executive Board Member | Korean Student Association <br />
+                &nbsp;&nbsp;- Managing event operations and community engagement.<br />
+                • Active Member | Computer Science Club<br />
+                • Active Member | Badminton Club & Board Game Club<br />
+              </p>
             </div>
           </div>
-        </div>
+        </section>
+        
         
         <section id="skills" className="skills-container">
           <SkillsCarousel />
@@ -132,33 +134,37 @@ const projects = [
 }
 
 function ImageCard() {
-  const [index, setIndex] = useState(0); // index holds current value (0 at start) and setIndex is a function
-  // called when value needs to be changed
+  const [index, setIndex] = useState(0);
 
-  // Arrow function to go to next image
   const nextImage = () => {
-    setIndex((prev) => (prev + 1) % images.length); // setIndex takes an arrow function that takes prev as a parameter (autofilled with current index value)
+    setIndex((prev) => (prev + 1) % images.length);
   };
 
-  // Timer: Change every 15 seconds
   useEffect(() => {
     const timer = setInterval(nextImage, 15000);
-    return () => clearInterval(timer); // Cleanup on unmount
+    return () => clearInterval(timer);
   }, [index]);
 
-  const nextIndex = (index + 1) % images.length;
-
   return (
-    <div className="carousel-container">
-      <div className="card-stack">
-        {/* Main Image */}
-        <img src={images[index]} key={index} className="main-card" alt="Active" />
-        
-        {/* Upcoming Tilted Image */}
-        <img src={images[nextIndex]} key={nextIndex} className="next-card" alt="Next" />
+    <div className="carousel-container-modern">
+      <div className="image-wrapper">
+        <img src={images[index]} key={index} className="main-image-modern" alt="University Campus" />
       </div>
       
-      <button onClick={nextImage} className="nav-button">Next Image</button>
+      {/* Pagination Dots */}
+      <div className="pagination-dots">
+        {images.map((_, i) => (
+          <span 
+            key={i} 
+            className={`dot ${i === index ? 'active' : ''}`} 
+            onClick={() => setIndex(i)}
+          ></span>
+        ))}
+      </div>
+
+      <button onClick={nextImage} className="modern-nav-button">
+        Next Image <span className="arrow-icon">›</span>
+      </button>
     </div>
   );
 }
